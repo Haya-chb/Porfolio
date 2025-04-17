@@ -7,19 +7,22 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #baaa9a;
+    background-color: #0b1e24;
+    overflow-x:hidden;
+    
+    
 }
 
 
 header {
-    border: #6263ae;
+   
      display: flex;
      flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     height: fit-content;
-    padding: 10px;
+    padding: 3px;
     
    
    }
@@ -35,8 +38,8 @@ header {
  
  a { font-family: "Anton SC", sans-serif;
      text-decoration: none;
-     font-size: 2rem;
-     color: #111112;
+     font-size: 1.5rem;
+     color: #a08c47;
  
  }
  
@@ -44,16 +47,17 @@ header {
  a:hover {
      font-weight: bold;
      transition: all ease-in-out 0, 9s;
-     color: #6263ae;
+     color: #6a5b28;
  }
    
  
  h1 {margin-left: 20px;
-     color: #8676a5;
-     font-family: "Neonderthaw", cursive;
+     color: #dec467;
+      font-family: "Pinyon Script", cursive;
      font-style: italic;
-     font-size: 10em;
+     font-size: 5em;
    margin: 0 ;
+   padding: 0%;
    
 
  }
@@ -61,7 +65,8 @@ header {
 .dessin{
   
 
-    width: 35%;
+    width: 130%;
+    margin-bottom: 20px;
     
  }
  
@@ -77,13 +82,17 @@ span{text-align: center;
 }
 p{margin: 20px;
     max-width:  400px;
+    color: #6e9cad;
+    font-size: large;
+    
 }
 
  
  h2{
     font-family: "Anton SC", sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     margin: 0;
+    color:#dec467 ;
     
     
  }
@@ -92,11 +101,12 @@ video  {
     width: 100%;
 }
 
-.img1 {
-    max-width: 70%;
+
+.imginterview {
+    width: 400px;
 }
 
-.seven, .assas{
+.seven, .assas, .img1{
     max-width: 300px;
 }
 
@@ -114,15 +124,19 @@ video  {
  
  
  @media (width>=800px) {
-     
+    header{gap: 0px;}
      ul{
     flex-direction: row;
      width: 90%;
      align-items: center;
+    gap: 40px;
+     flex-wrap: wrap;
      
     
     }
  
+a{font-size: 2.1rem;}
+
  div{
     flex-direction: row;
     gap: 20px;
@@ -130,21 +144,24 @@ video  {
     
  }
 
- img{
-   width: 30%;
- }
-
-#magasine div{
-    max-width: 300px;
-    
-}
-
-.seven .assas{max-width: 100%;}
-    
+ h2{font-size: 5rem;}
+ p{font-size: 1.5rem;
+max-width: 600px;}
+span > a{font-size:2.7rem ;
     }
  
  .motion{
-    width: 50%;
+    width: 40%;
  } 
 
- .interview { width: 50%;}
+ .dessin{
+    max-width: 1000px;
+ }
+
+  }
+
+  @media (width>=1200px){
+    .dessin{
+        max-width: 1100px;
+     }
+  }
