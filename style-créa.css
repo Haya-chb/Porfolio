@@ -118,9 +118,7 @@ video  {
     width: 400px;
  }
  
- .hmotion{
-    font-size: 3rem;
- }
+ 
  
  
  @media (width>=800px) {
