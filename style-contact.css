@@ -13,6 +13,7 @@
 body {
     background-color: var(--bg-color) ;
     justify-content: center;  
+    color: var(--main-color);
 }
 
 .page {
@@ -40,14 +41,14 @@ nav ul{list-style: none;
     
 }
  
-a{
+nav a{
     font-size: 1.3rem;
     text-decoration: none;
     color: var(--second-color)
 
 }
 
-a:hover {
+nav a:hover {
     transition: all ease-in-out 0, 9s;
     color: var(--main-color);
 }
@@ -66,20 +67,80 @@ header {
 h1 {
     color: var(--main-color);
     font-style: italic;
-    font-size: 6em;
+    font-size: 5em;
     margin: 0;
     align-self: center;
 
 }
 
+form{
+
+width: 100%;
+}
 
 main{
     width: 60% ;
     border: var(--main-color) solid 2px;
     border-radius: 80px;
-    padding: 3px 40px;
+    padding: 10px 40px 30px 40px;
+}
+
+label{
+    font-size: 1.2rem;
+    
+}
+input{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    width: 90%;
+    background-color: var(--bg-color);
+    border: none;
+    border-bottom: var(--main-color) solid;
+    color: var(--second-color);
+}
+
+textarea{
+    color: var(--second-color);
+    margin-top: 10px;
+    width: 90%;
+    background-color: var(--bg-color);
+    border: solid var(--main-color);
+    resize : none;
+    overflow: scroll;
+    font-size: 1.2rem;
+    
+}
+
+input:last-of-type{
+    color:var(--main-color);
+    border: solid;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 80px;
+    
+}
+
+input:last-of-type:hover{
+  background-color: var(--main-color);
+  color: var(--bg-color);
 }
 
 footer{
     background-color: var(--main-color);
+    color: var(--bg-color);
+}
+
+section a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--bg-color);
+    
+}
+
+section a:hover{
+    text-decoration:underline;
+}
+
+section ul{
+    list-style: none;
 }
