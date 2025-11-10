@@ -73,3 +73,13 @@ h1 {
     align-self: center;
 
 }
+
+img{
+    max-width: 300px;
+    box-shadow: #000000 16px 30px 30px;
+    margin: 25px;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
