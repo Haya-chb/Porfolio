@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-contact.css">
+    <link rel="stylesheet" href="css/style-contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Neonderthaw&display=swap" rel="stylesheet">
@@ -36,30 +36,37 @@
 
 <form action="contact.html" method="post">
 
+<div>
 <label for="nom">*Nom </label>
 <br>
-
- <input type="text" id="nom">
-<br><br>
+<input type="text" id="nom" required>
+</div>
  
+<div>
  <label for="prenom">*Prénom </label>
  <br>
- <input type="text" id="prenom"> 
- <br><br>
+ <input type="text" id="prenom" required> 
+</div>
 
+<div>
  <label for="mail">*Email</label>
  <br>
- <input type="email" id="mail"> 
-<br><br>
+ <input type="email" id="mail" required> 
+</div>
+
+<div>
  <label for="entreprise">Nom de l'entreprise</label>
  <br>
- <input type="text" id="entreprise">
-<br><br>
+ <input type="text" id="entreprise" >
+</div>
+
+<div>
 <label for="message">Message</label>
 <br>
-<textarea name="" id="message" rows="10"></textarea>
-<br><br>
-<input type="submit">
+<textarea name="" id="message" rows="6" required></textarea>
+</div>
+
+<input class="bouton" type="submit">
 
 </form>
     
