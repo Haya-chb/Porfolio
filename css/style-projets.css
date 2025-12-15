@@ -13,11 +13,13 @@
 body {
     background-color: var(--bg-color);
     justify-content: center;
+   
+    
 }
 
 .page {
 
-    border: var(--main-color) solid 1px;
+   border: var(--main-color) solid 1px;
     border-radius: 25px;
     padding: 5px 10px;
 
@@ -26,7 +28,7 @@ body {
 
 nav{
 
-    width: 500px;
+  width: 500px;
     height: fit-content;
 }
 
@@ -45,6 +47,8 @@ a {
     font-size: 1.3rem;
     text-decoration: none;
     color: var(--second-color);
+   
+    
 }
 
 
@@ -74,58 +78,94 @@ h1 {
 
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 80px;
+    
+}
+
+figure{
+    margin: 0%;
+    display: inline-block;
+    width: fit-content;
+    width: 100%;
+    
+
+}
+
+
 
 img{
     box-shadow: #000000 16px 30px 30px;
-    margin: 25px;
     background-size: 88% 80%;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
-img:hover{
+figure:hover{
     transform: scale(1.2);
 }
 
-main{
-    max-width: 90%;
-}
 
-a:first-child img{
-background-image: url(projet/interview.png);
-width: 30%;
- 
-}
-
-a:nth-child(2) img{
- background-image: url(projet/refonte.png);
- width: 20%;
-}
-
-a:nth-child(3) img{
-    background-image: url(projet/sitemusical.png);
-    width: 25%;
-}
-
-a:nth-child(4) img{
-    background-image: url(projet/interview.png);
-    width: 20%;
-}
-
-a:nth-child(5) img{
- background-image: url(projet/refonte.png);
- width: 25%;
- 
-}
-
-a:nth-child(6) img{
-    background-image: url(projet/sitemusical.png);
+a:first-child, a:last-child{
     width: 30%;
 }
 
-a:last-child img{
-    background-image: url(projet/interview.png);
+a:nth-child(2) {
+
     width: 20%;
+}
+
+a:nth-child(3) {
+
+    width: 25%;
+}
+
+
+a:nth-child(4) {
+
+    width: 20%;
+}
+
+a:nth-child(5) {
+
+    width: 25%;
+}
+
+a:first-child img{
+background-image: url(../projet/interview.png); 
+}
+
+a:nth-child(2) img{
+ background-image: url(../projet/refonte.png);
+
+}
+
+a:nth-child(3) img{
+    background-image: url(../projet/sitemusical.png);
+}
+
+a:nth-child(4) img{
+background-image: url(../projet/interview.png);
+
+}
+
+a:nth-child(5) img{
+ background-image: url(../projet/refonte.png);
+
+}
+
+a:nth-child(6) img{
+    background-image: url(../projet/sitemusical.png);
+   
+}
+
+a:last-child img{
+    background-image: url(../projet/interview.png);
+   
 }
 
 

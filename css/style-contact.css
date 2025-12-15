@@ -15,10 +15,7 @@ body {
     background-color: var(--bg-color);
     justify-content: center;
     color: var(--main-color);
-    margin: 0;
-    display: flex;
-    gap: 40px;
-    flex-direction: column;
+   
     
 }
 
@@ -92,6 +89,9 @@ main {
     border: var(--main-color) solid 2px;
     border-radius: 80px;
     padding: 10px 20px 20px 20px;
+     display: flex;
+    gap: 40px;
+    flex-direction: column;
 }
 
 label {
@@ -152,6 +152,9 @@ footer {
     background-color: var(--main-color);
     color: var(--bg-color);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 
@@ -159,6 +162,7 @@ section a {
     font-size: 1.2rem;
     text-decoration: none;
     color: var(--bg-color);
+   
 
 }
 
@@ -168,4 +172,6 @@ section a:hover {
 
 section ul {
     list-style: none;
+    
+   
 }

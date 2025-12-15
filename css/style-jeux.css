@@ -17,7 +17,7 @@ body {
 
 .page {
 
-    border: var(--main-color) solid 1px;
+   border: var(--main-color) solid 1px;
     border-radius: 25px;
     padding: 5px 10px;
 
@@ -26,12 +26,12 @@ body {
 
 nav{
 
-    width: 500px;
+  width: 500px;
     height: fit-content;
 }
 
 nav ul {
-    list-style: none;
+   list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,21 +42,21 @@ nav ul {
 }
 
 a {
-    font-size: 1.3rem;
+     font-size: 1.3rem;
     text-decoration: none;
     color: var(--second-color);
 }
 
 
 a:hover {
-    transition: all ease-in-out 0, 9s;
+     transition: all ease-in-out 0, 9s;
     color: var(--main-color);
 }
 
 
 header {
 
-    display: flex;
+  display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
@@ -70,5 +70,6 @@ h1 {
     font-size: 6em;
     margin: 0;
     align-self: center;
+
 
 }

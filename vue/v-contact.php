@@ -78,17 +78,17 @@
 
     <section>
         <ul>
+            <li> </li> 
             <li><a class="lien" href="mailto:hchaibi10@hotmail.com">hchaibi10@hotmail.com</a></li>
-            <li> +33 7 84 59 55 57 </li> 
+            
         </ul>
-    </section>
-
-    <section>
-        <ul>
+     <ul>
             <li><a class="lien"href="https://www.linkedin.com/in/haya-chaibi-8472b1337/">Haya Chaibi</a></li>
             <li><span><a class="lien" href="https://github.com/Haya-chb">Haya-chb</a></li>
             <li><a href="">Mon CV</a></li>
         </ul>
+
+
     </section>
 
     <section>
