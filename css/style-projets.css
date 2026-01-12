@@ -1,73 +1,3 @@
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
-:root{
-    --main-color: #D7AD7B;
-    --second-color: white;
-    --bg-color: #214168;
-}
-
-body {
-    background-color: var(--bg-color);
-    justify-content: center;
-   
-    
-}
-
-.page {
-
-   border: var(--main-color) solid 1px;
-    border-radius: 25px;
-    padding: 5px 10px;
-
-
-}
-
-nav{
-
-  width: 500px;
-    height: fit-content;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    margin: 0;
-
-}
-
-a {
-    font-size: 1.3rem;
-    text-decoration: none;
-    color: var(--second-color);
-   
-    
-}
-
-
-a:hover {
-    transition: all ease-in-out 0, 9s;
-    color: var(--main-color);
-}
-
-
-header {
-
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
-
 h1 {
 
     color: var(--main-color);
@@ -78,11 +8,13 @@ h1 {
 
 }
 
+
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    gap: 80px;
+    gap: 100px;
+
     
 }
 
@@ -97,6 +29,38 @@ figure{
 
 
 
+
+@media (max-width: 800px) {
+    main {
+        flex-wrap: nowrap; 
+        overflow-x: auto;  
+        scroll-snap-type: x mandatory; 
+        gap: 30px;         
+        padding: 40px 20px; 
+        width: 100%;
+        justify-content: flex-start; 
+    }
+
+    main a {
+        flex: 0 0 80%;     
+        scroll-snap-align: center; 
+        width: auto;       
+    }
+
+    figure {
+        width: 100%;
+    }
+
+
+figure:hover{
+    transform: scale(0.2);
+}
+
+}
+
+
+
+
 img{
     box-shadow: #000000 16px 30px 30px;
     background-size: 88% 80%;
@@ -106,7 +70,7 @@ img{
 }
 
 figure:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
 }
 
 

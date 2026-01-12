@@ -6,13 +6,14 @@
 
 :root{
     --main-color: #D7AD7B;
-    --second-color: white;
+    --second-color: #fff8f8;
     --bg-color: #214168;
 }
 
 body {
     background-color: var(--bg-color);
     justify-content: center;
+    margin: 0%;
 }
 
 .page {
@@ -24,11 +25,18 @@ body {
 
 }
 
-nav{
 
+nav{
     width: 500px;
     height: fit-content;
 }
+
+@media (max-width: 800px){
+ nav{
+
+    width: 300px;
+    height: fit-content;
+}}
 
 nav ul {
     list-style: none;
@@ -41,14 +49,14 @@ nav ul {
 
 }
 
-a {
+nav a {
     font-size: 1.3rem;
     text-decoration: none;
     color: var(--second-color);
 }
 
 
-a:hover {
+nav a:hover {
     transition: all ease-in-out 0, 9s;
     color: var(--main-color);
 }
@@ -71,5 +79,55 @@ h1 {
     font-size: 6em;
     margin: 0;
     align-self: center;
+    
 
 }
+
+
+
+footer {
+    
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    padding: 60px 10% 40px; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: auto;
+}
+
+.footer-group p {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid var(--bg-color);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-group li {
+    margin-bottom: 12px; 
+}
+
+.footer-group a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--bg-color);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.footer-group a:hover {
+    opacity: 1;
+    padding-left: 8px; 
+    color: var(--second-color); 
+}
+   
