@@ -21,7 +21,7 @@
 <nav>
     <ul>
         <li><a href="index.html">Acceuil</a></li>
-        <li><a href="galerie.html">Projets</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
         <li><a href="contact.php" class="page">Contact</a></li>
     </ul>
 </nav>

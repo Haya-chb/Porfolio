@@ -78,7 +78,7 @@ textarea {
 
 
 .bouton {
-    color: var(--main-color);
+   
     border: solid;
     width: fit-content;
     padding: 10px;
@@ -86,12 +86,14 @@ textarea {
     display: block;
     margin-left: 50%;
     transform: translateX(-50%);
-
+    background-color: var(--main-color);
+    color: var(--bg-color);
 }
 
 .bouton:hover {
-    background-color: var(--main-color);
-    color: var(--bg-color);
+    color: var(--main-color);
+    background-color: var(--bg-color);
+    
 }
 
 

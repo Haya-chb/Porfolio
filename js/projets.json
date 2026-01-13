@@ -1,10 +1,45 @@
 {
   "projet": [
-    { "id":1 ,"nom": "Datakill", "description": "lorem impumlorempererelfeirekfjfjbh bnejnheveevhvhvnvbnbbfbvbhjhhh", "caracteristiques": "lorem impumlorempererelfeirekfjfjbh bnejnheveevhvhvnvbnbbfbvbhjhhh", "image" : "img/img-projet/datakill.webp", "url" : "https://razzway.github.io/datakill/" },
-    { "id":2 ,"nom": "Filmothèque", "description": 3.4, "caracteristiques": "Albanie", "image" : "url", "url" : "https://webinventory.chaibi.projetsmmichamps.fr/" },
-    { "id":3 ,"nom": "La gamelle", "description": 1.6, "caracteristiques": "Algérie", "image" : "img/img-projet/lagamelle.webp", "url" : "https://lagaamelle.fr/" },
-    { "id":4 ,"nom": "Interview", "description": 8.7, "caracteristiques": "Angola", "image" : "img/img-projet/interview.webp", "url" : "https://youtu.be/G11FQz8sYek" },
-    { "id":6 ,"nom": "Campagne publicitaire", "description": 5.9, "caracteristiques": "Argentine", "image" : "url", "url" : "uruu" }
-    
-    
-    ]}
+    {
+  "id": 1,
+  "nom": "Datakill",
+  "description": "On peut souvent entendre que le taux de criminalité augmente constamment. Mais qu’en sait-on vraiment ? Grâce à Datakill, il vous est possible de découvrir si le taux de meurtres augmente en France grâce à de nombreux graphiques et avec des données allant de 2016 jusqu’à octobre 2025. Par la suite, on vous présente les plus grands tueurs français connus.",
+  "caracteristiques": "La conception du site a débuté en septembre et le développement a pris fin en novembre 2026. Il a été réalisé dans le cadre d’un projet scolaire avec la participation de Clément Kerneis, Léo Dang et Minh Anh Pham. Les langages utilisés sont : JavaScript, HTML et CSS. Ce projet nous a permis de nous entraîner à être créatifs afin de mettre en forme des données pour qu’elles donnent envie au lecteur de les lire, et aussi de chercher des données qui sont vérifiées et sûres. On a aussi appris à rédiger une vraie page de mentions légales de la manière la plus complète possible. Il a aussi été nécessaire d’apprendre à utiliser par nous-mêmes la bibliothèque D3.js. Nous avons aussi décidé de notre propre chef d’utiliser, pour la toute première fois, GitHub à plusieurs ; ainsi, nous avons pu apprendre sur le tas à l’utiliser correctement. Le site est responsive uniquement à partir d’une largeur de 1024 pixels du navigateur.",
+  "image": "img/img-projet/datakill.webp",
+  "url": "https://razzway.github.io/datakill/"
+},
+
+    {
+  "id": 2,
+  "nom": "Filmothèque",
+  "description": "Dans une société où vos avis cinématographiques vous mettent dans des cases et où, si vous n’aimez pas tel film, c’est seulement parce que vous « n’y connaissez rien ». À l’ère où tout le monde écoute les avis de ceux qui se disent cinéphiles, tels que Regelegorilla, et où tout le monde possède une appli pour noter les films qu’il a vus, telle que Letterboxd, Filmothèque vous propose une alternative : un site où vous seuls pouvez voir vos avis et où vous pouvez vous livrer et mettre 5 étoiles à ce film que tout le monde a jugé horrible alors qu’il vous a chamboulé.",
+  "caracteristiques": "La conception du site a débuté en février 2024 et le développement a pris fin en juin 2024. Il a été réalisé dans le cadre d’un projet scolaire avec pour seule participation la mienne, Haya Chaibi. Les langages utilisés sont : JavaScript, HTML, CSS, PHP et MySQL. Ce projet représente le tout premier site multipage que j’ai réalisé, mais aussi la première fois que j’utilisais du PHP, l’utilisation de MySQL, de représentation graphique de données et notamment un .htaccess. Grâce à cela, il est possible de laisser des commentaires, mais aussi de rajouter des films pour ceux qui ont le mot de passe. Grâce à JavaScript, j’ai même pu réaliser des filtres. Le site n’est pas responsive : il est utilisable uniquement en version desktop, à partir d’une largeur de 768 pixels du navigateur. Il y a eu un vrai travail sur la conception d’un site accessible grâce aux règles Opquast.",
+  "image": "img/img-projet/filmotheque.webp",
+  "url": "https://webinventory.chaibi.projetsmmichamps.fr/"
+},
+    {
+      "id": 3,
+      "nom": "La Gamelle",
+      "description": "Diversifier les repas de ses animaux dans une société où il est normal qu’un animal mange tous les jours la même chose, c’est compliqué. Alors La Gamelle est là pour vous permettre de le faire. En vous inscrivant, vous pourrez bénéficier de recettes pensées pour l’espèce de votre animal. Vous pouvez aussi mettre en favoris les recettes qui vous ont plu pour les retrouver plus facilement, et il est même possible de laisser des commentaires pour faire des retours sur les recettes que vous avez testées. Parce que nous voulons que les utilisateurs de La Gamelle puissent développer un vrai esprit de communauté, il est possible pour les utilisateurs de proposer une recette qui sera par la suite vérifiée par nos soins avant d’être publiée.",
+      "caracteristiques": "La conception du site a débuté en septembre avec un véritable travail sur l’UX et l’UI, et le développement a pris fin en janvier 2026. Il a été réalisé dans le cadre d’un projet scolaire avec la participation de Natalia Vilasse, Lola Beneteau et Reda Idmais. Les langages utilisés sont : JavaScript, HTML, CSS et PHP. Ce projet nous a permis de mettre en pratique la création d’un back-office complet et de coder en MVC, notamment d’approfondir nos compétences dans l’utilisation à plusieurs de GitHub. Il nous a aussi permis de nous entraîner à réaliser un site entièrement responsive. Il nous a aussi appris toutes les étapes nécessaires en UX pour développer un site web, comme la réalisation de tests utilisateurs, d’interviews utilisateurs et la réalisation d’un benchmark.",
+      "image": "img/img-projet/lagamelle.webp",
+      "url": "https://lagaamelle.fr/"
+    },
+    {
+      "id": 4,
+      "nom": "Interview",
+      "description": "Est-ce que vous pensez tout savoir sur le métier de journaliste ? Grâce à cette interview d’Emma Flacard, journaliste au 1 Hebdo, apprenez-en plus sur ce métier qui nous est peu connu.",
+      "caracteristiques": "Cette interview a été l’un des travaux audiovisuels les plus complets que j’ai pu proposer. Il a été réalisé dans le cadre d’un projet scolaire avec la participation de Romain Viktorovitch, Clément Kerneis et Maëlys Pohu pour ce qui est de la partie prise de vue, et le montage a entièrement été fait par moi-même. Le projet a débuté en septembre 2024 et a pris fin en janvier 2025. Le logiciel utilisé est Premiere Pro. Pour ce projet, nous avons dû en apprendre plus sur le milieu du journalisme, mais aussi éplucher tous les journaux papier ou internet possibles afin de trouver la personne qui accepterait de faire cette interview. Nous avons appris à installer un plateau de tournage et à filmer avec une caméra en utilisant plusieurs plans. Nous avons aussi dû apprendre à utiliser Premiere Pro.",
+      "image": "img/img-projet/interview.webp",
+      "url": "https://youtu.be/G11FQz8sYek"
+    },
+    {
+      "id": 6,
+      "nom": "Communication institutionnelle",
+      "description": "Une campagne institutionnelle complète constituée de 3 bannières web, une affiche de campagne en orientation portrait et paysage, une page d’accueil de site web en responsive, un plan interactif pour le site web avec son interprétation pour le print, ainsi que d’un moodboard.",
+      "caracteristiques": "Cette campagne institutionnelle a été réalisée en novembre 2026. Elle a été réalisée dans le cadre d’un projet scolaire avec la participation de Natalia Vilasse. Les logiciels utilisés sont : Affinity et Figma. Ce projet a été un vrai défi. Tout d’abord, il a fallu trouver des atouts et une direction artistique pour L’Isle-Adam, mais aussi, comme c’était la toute première fois que nous utilisions Affinity, il a fallu nous défaire de nos habitudes de la suite Adobe afin de réaliser la meilleure version possible.",
+      "image": "img/img-projet/campagne.webp",
+      "url": "uruu"
+    }
+  ]
+}

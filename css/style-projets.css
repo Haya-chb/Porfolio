@@ -116,7 +116,7 @@ background-image: url(../img/img-projet/datakill.webp);
 }
 
 a:nth-child(2) img{
- background-image: url(../projet/refonte.png);
+ background-image: url(../img/img-projet/filmotheque.webp);
 
 }
 
@@ -130,7 +130,7 @@ background-image: url(../img/img-projet/interview.webp);
 }
 
 a:last-child img{
-    background-image: url(../projet/interview.png);
+    background-image: url(../img/img-projet/campagne.webp);
    
 }
 
