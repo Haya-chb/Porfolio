@@ -1,0 +1,11 @@
+{
+  "projet": [
+    { "id":1 ,"nom": "Datakill", "description": "lorem impumlorempererelfeirekfjfjbh bnejnheveevhvhvnvbnbbfbvbhjhhh", "caracteristiques": "lorem impumlorempererelfeirekfjfjbh bnejnheveevhvhvnvbnbbfbvbhjhhh", "image" : "projet/refonte.png", "url" : "https://razzway.github.io/datakill/" },
+    { "id":2 ,"nom": "Filmothèque", "description": 3.4, "caracteristiques": "Albanie", "image" : "url", "url" : "uruu" },
+    { "id":3 ,"nom": "La gamelle", "description": 1.6, "caracteristiques": "Algérie", "image" : "url", "url" : "https://lagaamelle.fr/" },
+    { "id":4 ,"nom": "Interview", "description": 8.7, "caracteristiques": "Angola", "image" : "url", "url" : "https://youtu.be/G11FQz8sYek" },
+    { "id":5 ,"nom": "Monotony", "description": "(Donnée Inconnue)", "caracteristiques": "Antarctique", "image" : "url", "url" : "https://youtu.be/Uq9xsHqvfuE" },
+    { "id":6 ,"nom": "Campagne publicitaire", "description": 5.9, "caracteristiques": "Argentine", "image" : "url", "url" : "uruu" }
+    
+    
+    ]}
