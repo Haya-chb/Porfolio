@@ -50,3 +50,7 @@ function afficherTexte(projet) {
     infoParagraphe.textContent = projet.caracteristiques;
   });
 }
+
+
+
+

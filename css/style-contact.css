@@ -98,21 +98,7 @@ textarea {
 aside{border: none;}
 
 
-@media (min-width: 800px) {
 
-    aside{
-    border: solid var(--main-color);
-    display: flex;
-    flex-direction: column;
-    display: inline-flex; 
-  
-  width: auto;
-
-  padding: 10px;
- 
- 
-}
-}
 
 
 

@@ -86,19 +86,21 @@ height: 90vh;
 
 
 .text a {
-
+color: var(--main-color);
+  border: solid;
   margin-top: 60px;
   border-radius: 40px;
   padding: 10px;
-  background-color: var(--main-color);
+  font-size: 1.2rem;
+  
 
 }
 
 
 .text a:hover {
 
-  border: 2px var(--main-color) solid;
-  background-color: var(--bg-color);
+  background-color: var(--main-color);
+    color: var(--bg-color);
 
 }
 
@@ -197,7 +199,9 @@ color: black;
 @media (min-width: 1000px){
 
 
-
+#recommendation{
+  display: none;
+}
 
 
 }

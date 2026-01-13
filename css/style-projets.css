@@ -27,10 +27,21 @@ figure{
 
 }
 
-
+#scroll{
+    display: none;
+}
 
 
 @media (max-width: 800px) {
+
+    #scroll{
+        display: block;
+        color: var(--second-color);
+        font-size:1.3rem;
+        margin-left: 20px;
+
+    }
+
     main {
         flex-wrap: nowrap; 
         overflow-x: auto;  
@@ -59,7 +70,10 @@ figure:hover{
 }
 
 
-
+figcaption{
+    font-size: 2rem;
+    color: var(--main-color);
+}
 
 img{
     box-shadow: #000000 16px 30px 30px;
@@ -97,10 +111,11 @@ a:nth-child(4) {
 a:nth-child(5) {
 
     width: 25%;
+    margin-bottom: 90px;
 }
 
 a:first-child img{
-background-image: url(../projet/interview.png); 
+background-image: url(../projet/datakill.webp); 
 }
 
 a:nth-child(2) img{
@@ -109,7 +124,7 @@ a:nth-child(2) img{
 }
 
 a:nth-child(3) img{
-    background-image: url(../projet/sitemusical.png);
+    background-image: url(../projet/lagamelle.webp);
 }
 
 a:nth-child(4) img{
