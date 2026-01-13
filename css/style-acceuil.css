@@ -1,23 +1,113 @@
 
-.main-section{
-    display: flex;
-    justify-content: flex-end;
+
+a {
+  color: var(--second-color);
+  text-decoration: none;
 }
 
-.main-section img{
-    width: 100vh;
-    
+h1{
+  font-size: 1rem;
 }
 
+.text{
+  margin: 5px;
+}
+
+
+.main-section {
+  
+  color: var(--second-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  position: relative;
+   height: 200vh;
+}
+
+.sticky-zone{
+
+height: 90vh;
+}
+
+
+#title {
+  font-size: 3rem;
+  position: sticky;
+  top: 20px;
+  
+  
+}
+
+
+
+
+.nuage1{
+  position: absolute;
+  width: 763px ;
+  right: 3px;
+  top: -286px ;
+  z-index: -2;
+ 
+
+}
+
+.nuage2{
+
+  position: absolute;
+  width: 469px ;
+  left: -180px;
+  top: 165px;
+  z-index: 2;
+  
+}
+
+.nuage3{
+
+  position: absolute;
+  width: 450px ;
+  left: 49px;
+  top: 274px ;
+  z-index: -2;
+  
+}
+
+.nuage4{
+
+  position: absolute;
+  width: 597px ;
+  right: 106px ;
+  top: 384px ;
+  z-index: 2;
+
+}
+
+
+
+.text a {
+
+  margin-top: 60px;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: var(--main-color);
+
+}
+
+
+.text a:hover {
+
+  border: 2px var(--main-color) solid;
+  background-color: var(--bg-color);
+
+}
 
 .opquast {
   position: relative;
   background: var(--main-color);
-  padding: 200px 10%;
-  overflow: hidden;
+  padding: 200px 3%;
   
 }
-
 
 .svg {
   position: absolute;
@@ -41,79 +131,100 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 80px;
+  gap: 10px;
   color: white;
 }
 
+.opquast-text p{
 
-
- h2{
-    color: var(--second-color);
-    margin: 20px;
-    font-size: 2rem;
+  min-width: 210px;
+  max-width: 800px;
 }
 
-.card-container {
-    display: flex;
-    flex-direction: column;
-    gap: 150px;
+.opquast-logo {
+
+  min-width: 120px;
+  max-width: 300px;
+}
+
+
+section h2{
+
+  color: var(--second-color);
+  margin-left: 10px;
+}
+
+section p{
+
+  color: var(--second-color);
+  margin-left: 5px;
+  margin-bottom: 42px;
+}
+
+ .card-container {
+  display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 59px;
     padding: 30px;
+  }
+
+
+.card-recommendation {
+  background-color: var(--second-color);
+  color: black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  min-width: 363px;
+  flex-direction: column;
 }
 
-.card-recommendation:nth-child(2){
-    align-self: flex-end;
-}
 
-
-.card-recommendation{
-
- background-color: var(--second-color);
- border-radius: 15px;
- display: flex;
- justify-content: center;
- padding: 5px;
- width: 600px;
+.infos-personne {
+  border-bottom: black solid 1px;
+  
  
 }
 
-.infos-personne{
-    border-right: black solid 1px;
-    max-width: 25%;
-    padding-right: 5px;
+
+.infos-personne p {
+color: black;
+}
+
+
+@media (min-width: 1000px){
+
+
+
+
+
 }
 
 
 
-@media (max-width: 800px) {
-    .card-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap; 
-        overflow-x: auto;  
-        scroll-snap-type: x mandatory; 
-        gap: 30px;         
-        padding: 40px 20px; 
-        width: 100%;
-        justify-content: flex-start; 
-       width: 100vw;
-       margin-bottom: 100px;
-        
-    }
-
-    main a {
-        flex: 0 0 80%;     
-        scroll-snap-align: center; 
-        width: auto;       
-    }
-
-  .card-recommendation {
-        flex: 0 0 85%; 
-        width: auto;
-        scroll-snap-align: center;
-        max-width: 500px;
-    }
-
-   
+@media (min-width: 800px){
 
 
+#title{
+  font-size: 6rem;
+}
+
+section p{
+  font-size: 1.2rem;
+}
+
+ h2{
+  font-size: 1.6rem;
+}
+
+
+
+}
+
+
+
+footer p{
+  color: var(--bg-color);
 }

@@ -8,55 +8,73 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Neonderthaw&display=swap" rel="stylesheet">
+  
+ 
    
    
     <title>Portfolio Haya CHAIBI</title>
 </head>
 <body>
 
-<header>
- <nav>
+<header id="haut">
+<nav>
     <ul>
-        <li><a href="index.html">Acceuil</a></li>
+        <li><a href="index.html" class="page">Acceuil</a></li>
         <li><a href="galerie.html">Projets</a></li>
-        <li><a href="jeux.html">Jeux</a></li>
-        <li><a href="contact.php" class="page">Contact</a></li>
+        <li><a href="jeux.html" >Jeux</a></li>
+        <li><a href="contact.php">Contact</a></li>
     </ul>
 </nav>
-    
+       
+    </header>
 
-</header>
+
+
+
 
 
 <section class="main-section">
-<h1>Haya Chaibi  <br>- Portfolio - </h1>
 
-<img src="projet/photo.webp" alt="Haya Chaibi ">
+<div class="decor">
+<img src="projet/Artboard 9.svg" class="nuage1" alt="">
+<img src="projet/Plan de travail 10.svg" class="nuage2" alt="">
+<img src="projet/Plan de travail 11.svg" class="nuage3" alt="">
+<img src="projet/Plan de travail 12.svg"  class="nuage4" alt="">
+</div>
 
-</section>
-<section>
-<h2>Qui sui-je ?</h2>
-<p>Étudiante à la recherche d’un stage de minimum 2 mois en tant que développeuse web.
 
+  <div class="sticky-zone">
+
+    <h1 id="title">Haya Chaibi<br>- Portfolio -</h1>
+</div>
+
+
+
+
+    <span class="text">
+      <h2>Qui suis-je ?</h2>
+      <p>Étudiante à la recherche d’un stage de minimum 2 mois en tant que développeuse web.
+<br><br>
 Pour moi, coder c'est pas juste aligner des lignes, c'est créer une vraie expérience. Je pense mes interfaces pour qu'elles touchent les gens et qu'elles leur donnent envie de rester. Chaque détail est là pour guider l'utilisateur sans qu'il se perde.
-
+<br><br>
 Ce qui me tient à cœur, c'est l'accessibilité : trop peu de sites sont encore utilisables par tout le monde aujourd'hui. Mais ce que j'apprécie aussi, c'est l'humain. J'adore le travail en équipe et l'énergie qu'on a quand on avance ensemble dans une bonne ambiance. À terme, j'aspire à devenir chef de projet, mais pour l'instant, c'est dans le développement web que je veux faire mes preuves et tester mes idées.</p>
-
-<a href="projet/CV.pdf">Télécharger mon CV</a>
-
+      <a href="projet/CV.pdf">Télécharger mon CV</a>
+    </span>
+  
 </section>
+
 
 
 <section class="opquast">
 
-  <!-- SVG du haut -->
+  
   <svg viewBox="0 0 800 400" class="svg top" preserveAspectRatio="none">
     <path id="curve-top"
       d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 Z"
       fill="var(--bg-color)"/>
   </svg>
 
-  <!-- Contenu -->
+
   <div class="opquast-content">
     <div class="opquast-text">
       <h2>Certification Opquast</h2>
@@ -68,9 +86,9 @@ Ce qui me tient à cœur, c'est l'accessibilité : trop peu de sites sont encore
       </p>
     </div>
 
-    <div class="opquast-logo">
-      <img src="projet/opquast.webp" alt="Logo Opquast">
-    </div>
+  
+      <img src="projet/opquast.webp" alt="Logo Opquast" class="opquast-logo">
+   
   </div>
 
   <svg viewBox="0 0 800 400" class="svg bottom" preserveAspectRatio="none">
@@ -84,17 +102,18 @@ Ce qui me tient à cœur, c'est l'accessibilité : trop peu de sites sont encore
 
 <section>
 
-<h2>Recommendation</h2>
+<h2 aria-labelledby="recommendation">Recommendation</h2>
+<p aria-labelledby="recommendation">Scroller pour voir toutes les recommendation</p>
 
 <div class="card-container">
 <article class="card-recommendation">
   <div class="infos-personne">
-    <h3>Yassine</h3>
-    <p>Président de l'association Les Jeunes Ambitieux</p>
+    <h3>Anaïs</h3>
+    <p>Bénévole dans l'association Les Jeunes Ambitieux</p>
   </div>
 
     <blockquote>
-    "Le texte de la recommandation va ici..."
+    "Dotée d’un profond sens de l’engagement, Haya occupe une place essentielle au sein de l’association Les Jeunes Ambitieux grâce à son implication active dans le pôle éducation. Elle met sa sensibilité et son goût pour la lecture au service des ateliers du Club Lecture, tandis que sa patience et sa bienveillance lui permettent d’offrir un accompagnement scolaire constant et de qualité aux élèves. Son dynamisme, son optimisme et sa volonté sincère de faire le bien font d’elle un atout précieux pour l’association ainsi que pour toutes les personnes qui bénéficient de son engagement."
   </blockquote>
   
 </article>
