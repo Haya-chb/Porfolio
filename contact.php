@@ -37,43 +37,86 @@
 <h1>Me contacter</h1>
 
 
-<form action="contact.html" method="post">
+<form action="contact.php" method="post">
 
 <div>
 <label for="nom">*Nom </label>
 <br>
-<input type="text" id="nom" required>
+<input type="text" id="nom" name="nom" required>
 </div>
  
 <div>
  <label for="prenom">*Prénom </label>
  <br>
- <input type="text" id="prenom" required> 
+ <input type="text" id="prenom" name="prenom"required> 
 </div>
 
 <div>
  <label for="mail">*Email</label>
  <br>
- <input type="email" id="mail" required> 
+ <input type="email" id="mail" name="email" required> 
 </div>
 
 <div>
  <label for="entreprise">Nom de l'entreprise</label>
  <br>
- <input type="text" id="entreprise" >
+ <input type="text" id="entreprise" name="entreprise">
 </div>
 
 <div>
 <label for="message">Message</label>
 <br>
-<textarea name="" id="message" rows="6" required></textarea>
+<textarea name="message" id="message" rows="6" required></textarea>
 </div>
 
 <input class="bouton" type="submit">
 
 </form>
     
-        
+ <?php
+if (!empty($_POST['email']) && !empty($_POST['message']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+
+    $prenom = htmlspecialchars($_POST['prenom']);
+    $nom = htmlspecialchars($_POST['nom']);
+    $entreprise = htmlspecialchars($_POST['entreprise']);
+    $email = $_POST['email'];
+    $msg = nl2br(htmlspecialchars($_POST['message']));
+
+    $entete  = "MIME-Version: 1.0\r\n";
+    $entete .= "Content-type: text/html; charset=utf-8\r\n";
+    $entete .= "From: Portfolio Haya <haya.chaibi@hotmail.com>\r\n";
+    $entete .= "Reply-To: $email\r\n";
+
+    $message = "
+    <h2>Message depuis le portfolio</h2>
+    <p><b>Nom :</b> $prenom $nom</p>
+    <p><b>Entreprise :</b> $entreprise</p>
+    <p><b>Email :</b> $email</p>
+    <p><b>Message :</b><br>$msg</p>
+    ";
+
+    if(mail("destinataire@free.fr", "Nouveau message - Portfolio", $message, $entete)){
+        echo "<p style='color:lightgreen'>Votre message a bien été envoyé.</p>";
+    } else {
+        echo "<p style='color:red'>Erreur lors de l'envoi.</p>";
+    }
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <aside>
 
