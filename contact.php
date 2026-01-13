@@ -22,7 +22,6 @@
     <ul>
         <li><a href="index.html">Acceuil</a></li>
         <li><a href="galerie.html">Projets</a></li>
-        <li><a href="jeux.html">Jeux</a></li>
         <li><a href="contact.php" class="page">Contact</a></li>
     </ul>
 </nav>
@@ -79,8 +78,8 @@
 <aside>
 
 <h2>Mes réseaux :</h2>
-<a href=""><img src="projet/github.webp" alt=""></a>
-<a href=""><img src="projet/linkedin.webp" alt=""></a>
+<a href=""><img src="img/autres/github.webp" alt="Github"></a>
+<a href=""><img src="img/autres/linkedin.webp" alt="Linkedin"></a>
     
 </aside>
 
@@ -95,7 +94,7 @@
         <p>Me contacter</p>
         <ul>
             <li><a href="CV.pdf" title="Télécharger mon CV">Mon CV</a></li>
-            <li><a class="lien" href="mailto:tonmail@hotmail.com">@hotmail.com</a></li>
+            <li><a class="lien" href="mailto:haya.chaibi@hotmail.com">Mail</a></li>
             <li><a class="lien" href="https://linkedin.com">LinkedIn</a></li>
             <li><a class="lien" href="https://github.com">GitHub</a></li>
         </ul>
@@ -106,7 +105,6 @@
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="galerie.html">Projets</a></li>
-            <li><a href="jeux.html">Jeux</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
     </section>

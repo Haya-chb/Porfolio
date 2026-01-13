@@ -1,4 +1,9 @@
 
+body{
+  overflow-x: hidden;
+}
+
+
 
 a {
   color: var(--second-color);
@@ -66,9 +71,9 @@ height: 90vh;
 .nuage3{
 
   position: absolute;
-  width: 450px ;
-  left: 49px;
-  top: 274px ;
+  width: 350px ;
+  left: 30px;
+  top: 150px ;
   z-index: -2;
   
 }
@@ -79,28 +84,27 @@ height: 90vh;
   width: 597px ;
   right: 106px ;
   top: 384px ;
-  z-index: 2;
+  z-index: -2;
 
 }
 
 
 
 .text a {
-color: var(--main-color);
+
   border: solid;
   margin-top: 60px;
   border-radius: 40px;
   padding: 10px;
   font-size: 1.2rem;
-  
-
+  color: var(--bg-color);
+  background-color: var(--main-color);
 }
 
 
 .text a:hover {
-
-  background-color: var(--main-color);
-    color: var(--bg-color);
+color: var(--main-color);
+background-color: var(--bg-color);
 
 }
 

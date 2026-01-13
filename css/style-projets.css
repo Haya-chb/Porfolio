@@ -103,19 +103,16 @@ a:nth-child(3) {
 }
 
 
+
+
 a:nth-child(4) {
-
-    width: 20%;
-}
-
-a:nth-child(5) {
 
     width: 25%;
     margin-bottom: 90px;
 }
 
 a:first-child img{
-background-image: url(../projet/datakill.webp); 
+background-image: url(../img/img-projet/datakill.webp); 
 }
 
 a:nth-child(2) img{
@@ -124,22 +121,12 @@ a:nth-child(2) img{
 }
 
 a:nth-child(3) img{
-    background-image: url(../projet/lagamelle.webp);
+    background-image: url(../img/img-projet/lagamelle.webp);
 }
 
 a:nth-child(4) img{
-background-image: url(../projet/interview.png);
+background-image: url(../img/img-projet/interview.webp);
 
-}
-
-a:nth-child(5) img{
- background-image: url(../projet/refonte.png);
-
-}
-
-a:nth-child(6) img{
-    background-image: url(../projet/sitemusical.png);
-   
 }
 
 a:last-child img{
