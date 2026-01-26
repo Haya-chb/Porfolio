@@ -121,9 +121,9 @@ if (!empty($_POST['email']) && !empty($_POST['message']) && filter_var($_POST['e
 <aside>
 
 <h2>Mes réseaux :</h2>
-<a href=""><img src="img/autres/github.webp" alt="Github"></a>
-<a href=""><img src="img/autres/linkedin.webp" alt="Linkedin"></a>
-    
+<a href="https://github.com/Haya-chb"><img src="img/autres/github.webp" alt="Github"></a>
+<a href="https://www.linkedin.com/in/haya-chaibi/"><img src="img/autres/linkedin.webp" alt="Linkedin"></a>
+
 </aside>
 
 
@@ -136,10 +136,10 @@ if (!empty($_POST['email']) && !empty($_POST['message']) && filter_var($_POST['e
     <section class="footer-group">
         <p>Me contacter</p>
         <ul>
-            <li><a href="CV.pdf" title="Télécharger mon CV">Mon CV</a></li>
+            <li><a href="img/CV.pdf" title="Télécharger mon CV">Mon CV</a></li>
             <li><a class="lien" href="mailto:haya.chaibi@hotmail.com">Mail</a></li>
-            <li><a class="lien" href="https://linkedin.com">LinkedIn</a></li>
-            <li><a class="lien" href="https://github.com">GitHub</a></li>
+            <li><a class="lien" href="https://www.linkedin.com/in/haya-chaibi/">LinkedIn</a></li>
+            <li><a class="lien" href="https://github.com/Haya-chb">GitHub</a></li>
         </ul>
     </section>
 
@@ -148,7 +148,7 @@ if (!empty($_POST['email']) && !empty($_POST['message']) && filter_var($_POST['e
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="galerie.html">Projets</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="contact.php" class="page">Contact</a></li>
         </ul>
     </section>
 </footer>

@@ -1,9 +1,8 @@
 
-body{
+
+.main-section{
   overflow-x: hidden;
 }
-
-
 
 a {
   color: var(--second-color);
@@ -138,14 +137,19 @@ background-color: var(--bg-color);
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  color: white;
+  
+ 
 }
 
 .opquast-text p{
 
   min-width: 210px;
   max-width: 800px;
+   
 }
+.opquast-text p, .opquast-text h2 {
+
+color: var(--bg-color);}
 
 .opquast-logo {
 
