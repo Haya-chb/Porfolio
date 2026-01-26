@@ -69,7 +69,7 @@
 <textarea name="message" id="message" rows="6" required></textarea>
 </div>
 
-<input class="bouton" type="submit">
+<input class="bouton" type="submit" value="Envoyer">
 
 </form>
     
@@ -84,7 +84,7 @@ if (!empty($_POST['email']) && !empty($_POST['message']) && filter_var($_POST['e
 
     $entete  = "MIME-Version: 1.0\r\n";
     $entete .= "Content-type: text/html; charset=utf-8\r\n";
-    $entete .= "From: Portfolio Haya <haya.chaibi@hotmail.com>\r\n";
+    $entete .= "From: Portfolio Haya <portfolio@haya-chaibi.fr>\r\n";
     $entete .= "Reply-To: $email\r\n";
 
     $message = "
@@ -95,7 +95,7 @@ if (!empty($_POST['email']) && !empty($_POST['message']) && filter_var($_POST['e
     <p><b>Message :</b><br>$msg</p>
     ";
 
-    if(mail("destinataire@free.fr", "Nouveau message - Portfolio", $message, $entete)){
+    if(mail("haya.chaibi@hotmail.com", "Nouveau message - Portfolio", $message, $entete)){
         echo "<p style='color:lightgreen'>Votre message a bien été envoyé.</p>";
     } else {
         echo "<p style='color:red'>Erreur lors de l'envoi.</p>";

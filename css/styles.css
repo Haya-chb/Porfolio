@@ -16,7 +16,10 @@ body {
     background-color: var(--bg-color);
     justify-content: center;
     margin: 0%;
+    overflow-x: hidden;
 }
+
+
 
 .page {
 
