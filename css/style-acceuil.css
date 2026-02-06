@@ -1,16 +1,22 @@
 
 
-.main-section{
-  overflow-x: hidden;
-}
-
 a {
   color: var(--second-color);
   text-decoration: none;
 }
 
 h1{
-  font-size: 1rem;
+  font-size: 2.6rem;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.4rem;
 }
 
 .text{
@@ -18,79 +24,73 @@ h1{
 }
 
 
-.main-section {
+
+.presentation-container {
   
   color: var(--second-color);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   padding: 50px;
-  position: relative;
-   height: 200vh;
-}
+  overflow-x: scroll;
+  height: 696px;
+  width: 90%;
+  margin:auto;
+  gap: 50px
 
-.sticky-zone{
-
-height: 90vh;
-}
-
-
-#title {
-  font-size: 3rem;
-  position: sticky;
-  top: 20px;
   
+   
+}
+
+
+.presentation-card{
+
+width: 95%;
+margin-left: 10px;
+ height: 80%;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+.description {
+  max-width: 855px;
+}
+
+.cadre{
+  position:absolute;
+  top: 11vh;
+  left: 14px;
+  width: 96vw;
+  height: 80vh;
+  z-index: 33;
+  pointer-events: none;
   
 }
 
 
 
-
-.nuage1{
-  position: absolute;
-  width: 763px ;
-  right: 3px;
-  top: -286px ;
-  z-index: -2;
+.info-link{
  
-
-}
-
-.nuage2{
-
-  position: absolute;
-  width: 469px ;
-  left: -180px;
-  top: 165px;
-  z-index: 2;
-  
-}
-
-.nuage3{
-
-  position: absolute;
-  width: 350px ;
-  left: 30px;
-  top: 150px ;
-  z-index: -2;
-  
-}
-
-.nuage4{
-
-  position: absolute;
-  width: 597px ;
-  right: 106px ;
-  top: 384px ;
-  z-index: -2;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 
 
-.text a {
 
+
+
+.link {
   border: solid;
   margin-top: 60px;
   border-radius: 40px;
@@ -101,7 +101,7 @@ height: 90vh;
 }
 
 
-.text a:hover {
+.link:hover {
 color: var(--main-color);
 background-color: var(--bg-color);
 
@@ -228,34 +228,9 @@ section p{
   font-size: 1.2rem;
 }
 
- h2{
-  font-size: 1.6rem;
-}
 
-.nuage4{
-  width: 746px;
-  right: 106px;
-  top: -150px;
 
-}
 
-.nuage1{
-  width: 1015px;
-  right: 504px;
-  top: -91px;
-
-}
-
-.nuage2{
-  width: 624px;
-  left: -211px;
-  top: 485px;
-}
-.nuage3{
-  width: 589px;
-  left: 117px;
-  top: 424px;
-}
 
 
 }

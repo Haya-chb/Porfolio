@@ -14,15 +14,18 @@ fetch("js/projets.json")
       return;
     }
 
-    document.querySelector("h1").textContent = projet.nom;
+    document.querySelector("h1").innerHTML = projet.nom;
     
     const image = document.querySelector("figure img");
     image.src = projet.image;
     image.alt = projet.nom;
 
-    document.querySelector("#information p").textContent = projet.description;
 
-    // Gestion du bouton "Voir l'œuvre"
+  document.getElementById("description").innerHTML= projet.description;
+
+
+  document.getElementById("caracteristique").innerHTML= projet.caracteristiques;
+
     const lienBouton = document.getElementById('url');
     if (id === 2) {
         lienBouton.style.display = "none";
@@ -30,21 +33,9 @@ fetch("js/projets.json")
         lienBouton.href = projet.url;
     }
 
-    afficherTexte(projet);
   })
   .catch(err => {
     console.error(err);
     window.location.href = "galerie.html";
   });
 
-function afficherTexte(projet) {
-  const infoParagraphe = document.querySelector("#information p");
-
-  document.getElementById("description").addEventListener("click", () => {
-    infoParagraphe.textContent = projet.description;
-  });
-
-  document.getElementById("caracteristique").addEventListener("click", () => {
-    infoParagraphe.textContent = projet.caracteristiques;
-  });
-}

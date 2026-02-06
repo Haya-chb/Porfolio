@@ -5,6 +5,20 @@
 }
 
 
+
+@font-face {
+    font-family: "Polaroid";
+    src: url("../polaroid-script.otf") format("opentype");
+
+}
+
+
+
+@font-face {
+   font-family: "Pashima";
+    src: url("../porsharichela.ttf") format("truetype");
+}
+
 :root{
     --main-color: #D7AD7B;
     --second-color: #fff8f8;
@@ -12,11 +26,18 @@
     
 }
 
+
+h1, h2, h3{
+     font-family: Polaroid, sans-serif;
+}
+
 body {
     background-color: var(--bg-color);
     justify-content: center;
     margin: 0%;
     overflow-x: hidden;
+   
+    font-family: Pashima, serif;
 }
 
 
