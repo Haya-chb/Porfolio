@@ -15,8 +15,8 @@
 
 
 @font-face {
-   font-family: "Pashima";
-    src: url("../porsharichela.ttf") format("truetype");
+   font-family: "Leorio";
+    src: url("../leorio.ttf") format("truetype");
 }
 
 :root{
@@ -37,7 +37,7 @@ body {
     margin: 0%;
     overflow-x: hidden;
    
-    font-family: Pashima, serif;
+    font-family: Leorio, serif;
 }
 
 

@@ -24,7 +24,6 @@ h3{
 }
 
 
-
 .presentation-container {
   
   color: var(--second-color);
@@ -32,20 +31,20 @@ h3{
   flex-direction: row;
   align-items: center;
   padding: 50px;
-  overflow-x: scroll;
   height: 696px;
   width: 90%;
   margin:auto;
-  gap: 50px
+  position:relative;
 
   
    
 }
 
 
+
 .presentation-card{
 
-width: 95%;
+width: 85vw;
 margin-left: 10px;
  height: 80%;
 flex-shrink: 0;
@@ -83,12 +82,16 @@ justify-content: center;
   flex-direction: column;
   margin-bottom: 30px;
   margin-top: 30px;
+  height: 100vh;
 }
 
 
 
 
-
+.link-container{
+  display: flex;
+  flex-direction: column;
+}
 
 .link {
   border: solid;
@@ -111,6 +114,8 @@ background-color: var(--bg-color);
   position: relative;
   background: var(--main-color);
   padding: 200px 3%;
+ 
+  
   
 }
 
@@ -171,12 +176,19 @@ section p{
   margin-bottom: 42px;
 }
 
+.section-recommendation{
+  height: 130vh;
+  background-color: var(--bg-color);
+  margin-bottom: 40px;
+}
+
  .card-container {
   display: flex;
     flex-direction: row;
     overflow-x: auto;
     gap: 59px;
     padding: 30px;
+    
   }
 
 
@@ -189,6 +201,7 @@ section p{
   padding: 15px;
   min-width: 363px;
   flex-direction: column;
+  flex: 1;
 }
 
 
@@ -202,6 +215,12 @@ section p{
 .infos-personne p {
 color: black;
 }
+
+
+blockquote{
+  height: 379px;
+}
+
 
 
 @media (min-width: 1000px){
@@ -219,6 +238,9 @@ color: black;
 
 @media (min-width: 800px){
 
+  .link-container{
+    flex-direction: row;
+  }
 
 #title{
   font-size: 6rem;
@@ -239,4 +261,9 @@ section p{
 
 footer p{
   color: var(--bg-color);
+}
+
+footer{
+  position: relative;
+  z-index: 4;
 }
