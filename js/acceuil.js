@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-  gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger); 
+let mm = gsap.matchMedia();
+  
 
 
+mm.add("(min-width: 900px)", () => {
   
     gsap.to(".presentation-container", {
   xPercent: -100,
@@ -14,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
      markers:true
   }
 });
-  
+});
 
 document.querySelectorAll(".section").forEach((section) => {
 
@@ -39,7 +42,7 @@ let split = new SplitText(".info-link-h2", {
 });
  gsap.from(split.chars, {
   
-  duration: 2,
+  duration: 1,
   y: 100,
   skewX: 100,
   autoAlpha: 0,

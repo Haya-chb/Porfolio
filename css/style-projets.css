@@ -1,121 +1,115 @@
 h1 {
-
     color: var(--main-color);
     font-style: italic;
     font-size: 6em;
-    margin: 0;
-    align-self: center;
-
+    margin: 0 0 3rem 0;
+    text-align: center;
 }
+
 
 
 #gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     gap: 100px;
-
-    
 }
 
-.container-img::before{
-    content: "";
-    background-image: url("../img/autres/cadre.png");
-    position:absolute;
-    inset: 0;
-   background-size: 100% 86%;
-  background-position:center top;
-  background-repeat: no-repeat
+
+
+#gallery a {
+    width: 20%;
+    text-decoration: none;
 }
 
-.container-img{
-    margin: 0%;
-    display: inline-block;
-    width: fit-content;
-    width: 100%;
-    transition: all 0.2s ease-out;
+
+
+figure {
+    margin: 0;
+    text-align: center;
+    transition: transform 0.2s ease-out;
+}
+
+
+figure:hover {
+    transform: scale(0.95);
+}
+
+
+
+.container-img {
     position: relative;
-    
-
-}
-
-#scroll{
-    display: none;
+    display: inline-block;
+    line-height: 0; 
 }
 
 
-@media (max-width: 800px) {
-
-    #scroll{
-        display: block;
-        color: var(--second-color);
-        font-size:1.3rem;
-        margin-left: 20px;
-
-    }
-
-    #gallery {
-        flex-wrap: nowrap; 
-        overflow-x: auto;  
-        scroll-snap-type: x mandatory; 
-        gap: 30px;         
-        padding: 40px 20px; 
-        width: 100%;
-        justify-content: flex-start; 
-    }
-
-    #gallery a {
-        flex: 0 0 80%;     
-        scroll-snap-align: center; 
-        width: auto;       
-    }
-
-    figure {
-        width: 100%;
-    }
-
-
-figure:hover{
-    transform: scale(0.2);
-}
-
+.container-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../img/autres/cadre.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
 }
 
 
-figcaption{
+.container-img img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 13 / 8;
+    object-fit: cover;
+    box-shadow: #000000 16px 30px 30px;
+}
+
+
+
+figcaption {
+    margin-top: 1.5rem;
     font-size: 2rem;
     color: var(--main-color);
 }
 
-img{
-    box-shadow: #000000 16px 30px 30px;
-    width: 97%;
-}
-
-figure:hover{
-    transform: scale(0.9);
-}
 
 
-a:first-child, a:last-child{
-    width: 30%;
-}
-
-a:nth-child(2) {
-
-    width: 20%;
-}
-
-a:nth-child(3) {
-
-    width: 25%;
+#scroll {
+    display: none;
 }
 
 
 
+@media (max-width: 800px) {
 
-a:nth-child(4) {
+    #scroll {
+        display: block;
+        color: var(--second-color);
+        font-size: 1.3rem;
+        margin-left: 20px;
+    }
 
-    width: 25%;
-    margin-bottom: 90px;
+    #gallery {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 30px;
+        padding: 40px 20px;
+        justify-content: flex-start;
+    }
+
+    #gallery a {
+        flex: 0 0 80%;
+        width: auto;
+        scroll-snap-align: center;
+    }
+
+    figure:hover {
+        transform: none; 
+    }
+}
+
+
+html, body {
+    overflow-x: hidden;
 }

@@ -13,8 +13,10 @@ fetch("js/projets.json")
       card.href = `oeuvre.html?id=${projet.id}`;
 
       card.innerHTML = `
-        <figure class="container-img">
+        <figure>
+        <div class="container-img">
           <img src="${projet.image}" alt="${projet.nom}">
+        </div>
           <figcaption>${projet.nom}</figcaption>
         </figure>
       `;

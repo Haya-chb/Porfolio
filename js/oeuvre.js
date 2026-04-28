@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+
 const params = new URLSearchParams(window.location.search);
 const id = parseInt(params.get("id")); 
 
@@ -39,3 +42,23 @@ fetch("js/projets.json")
     window.location.href = "galerie.html";
   });
 
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+    gsap.to(".content-img", {
+
+ duration:4,
+ x:1300,
+ repeat:-1,
+
+
+  
+ 
+});
+
+
+})

@@ -1,5 +1,7 @@
 
-
+html,body{
+  overflow-x: hidden;
+}
 a {
   color: var(--second-color);
   text-decoration: none;
@@ -30,21 +32,23 @@ h3{
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 50px;
   height: 696px;
   width: 90%;
   margin:auto;
   position:relative;
+  border: solid rgb(52, 186, 132) 2px;
 
   
    
 }
 
-
+.pin-spacer{
+  margin:0;
+}
 
 .presentation-card{
 
-width: 85vw;
+width: 100vw;
 margin-left: 10px;
  height: 80%;
 flex-shrink: 0;
@@ -83,6 +87,7 @@ justify-content: center;
   margin-bottom: 30px;
   margin-top: 30px;
   height: 100vh;
+  border: solid red 2px;
 }
 
 
@@ -173,7 +178,7 @@ section p{
 
   color: var(--second-color);
   margin-left: 5px;
-  margin-bottom: 42px;
+  margin-bottom: 24px;
 }
 
 .section-recommendation{
@@ -187,7 +192,7 @@ section p{
     flex-direction: row;
     overflow-x: auto;
     gap: 59px;
-    padding: 30px;
+    
     
   }
 
@@ -240,10 +245,14 @@ blockquote{
 
   .link-container{
     flex-direction: row;
+    align-items: flex-start;
+    height: 200vh;
   }
 
 #title{
   font-size: 6rem;
+
+
 }
 
 section p{
@@ -266,4 +275,17 @@ footer p{
 footer{
   position: relative;
   z-index: 4;
+}
+
+
+
+@media (max-width:900px) {
+  
+.intro{
+  flex-direction: column;
+  height: fit-content;
+  gap: 200px;
+  justify-content: center;
+}
+
 }
