@@ -1,0 +1,28 @@
+
+.footer__section {
+    background-color: var(--blue);
+    width: 60%;
+    height: 400px;
+    max-width: 450px;
+    box-shadow: 7px 9px rgb(0 0 0 / 0.15);
+}
+
+.footer__section--left{
+    rotate: 6.46deg;
+}
+
+.footer__section--right{
+    rotate:-18.49deg;
+}
+
+h3{
+    color: var(--white);
+    font-size: 2.3rem;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

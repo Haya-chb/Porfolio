@@ -64,29 +64,6 @@ nav{
     height: fit-content;
 }}
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    margin: 0;
-
-}
-
-nav a {
-    font-size: 1.3rem;
-    text-decoration: none;
-    color: var(--second-color);
-}
-
-
-nav a:hover {
-    transition: all ease-in-out 0, 9s;
-    color: var(--main-color);
-}
-
 
 header {
 
