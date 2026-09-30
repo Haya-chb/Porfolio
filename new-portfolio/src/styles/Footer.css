@@ -1,18 +1,29 @@
 
+footer{position:relative;}
+
 .footer__section {
     background-color: var(--blue);
     width: 60%;
     height: 400px;
     max-width: 450px;
     box-shadow: 7px 9px rgb(0 0 0 / 0.15);
+    position:absolute;
 }
 
 .footer__section--left{
     rotate: 6.46deg;
+    top:206%;
+    left:65%;
+    
 }
 
 .footer__section--right{
     rotate:-18.49deg;
+    top:-65%;
+    left:53%;
+    z-index: 99;
+    
+    
 }
 
 h3{
@@ -25,4 +36,22 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.footer__link{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--white);
+    margin: 28px;
+}
+
+.footer__link:hover{
+    transition: all ease-in-out 0.1s;
+    border : 3px solid var(--white);
+    padding: 5px;
 }
