@@ -1,0 +1,19 @@
+.contact__header{
+    position:relative;
+    background-image: url("../assets/images/contact-header.png");
+    background-size: 80% auto;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.contact__header::before {
+    content: "";
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--pink);
+    z-index: -1;
+}
