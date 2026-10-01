@@ -11,13 +11,17 @@
   "word-4": "PHP",
   "word-5": "GitHub",
   "word-6": "MVC",
+  "word-7": "Responsive",
 
-  "image-1": "img/img-projet/datakill.webp",
-  "image-2": "img/img-projet/filmotheque.webp",
-  "image-3": "img/img-projet/lagamelle.webp",
-  "image-4": "img/img-projet/interview.webp",
+  "image-1": "./images/LaGamelle/lagmelle-home.png",
+  "image-2": "./images/LaGamelle/lagmelle-loading.png",
+  "image-3": "./images/LaGamelle/lagamelle-book.png",
+  "image-4": "./images/LaGamelle/lagamelle-recipe.png",
+  "image-5": "./images/LaGamelle/lagamelle-toxic.png",
+  "image-6": "./images/LaGamelle/lagamelle-map.png",
+  "image-7": "./images/LaGamelle/lagamelle-veto.png",
 
-  "url": "https://razzway.github.io/datakill/"
+  "url": "https://lagaamelle.fr/"
 },
 
     {
@@ -31,13 +35,18 @@
   "word-4": "PHP",
   "word-5": "GitHub",
   "word-6": "MVC",
-  "word-7": "React",
+  "word-7": "Responsive",
 
-  "image-1": "img/img-projet/filmotheque.webp",
-  "image-2": "img/img-projet/lagamelle.webp",
-  "image-3": "img/img-projet/interview.webp",
+  "image-1": "./images/Yonsekai/yonsekai-home.png",
+  "image-2": "./images/Yonsekai/yonsekai-animation.png",
+  "image-3": "./images/Yonsekai/yonsekai-wind.png",
+  "image-4": "./images/Yonsekai/yonsekai-earth.png",
+  "image-5": "./images/Yonsekai/yonsekai-water.png",
+  "image-6": "./images/Yonsekai/yonsekai-fire.png",
+  "image-7": "./images/Yonsekai/yonsekai-info.png",
+  "image-8": "./images/Yonsekai/yonsekai-sigin.png",
 
-  "url": "https://webinventory.chaibi.projetsmmichamps.fr/"
+  "url": "https://yonsekai.vilasse.projetsmmichamps.fr/"
 },
 {
   "id": 3,
@@ -48,9 +57,9 @@
   "word-2": "CSS",
   "word-7": "React",
 
-  "image-1": "img/img-projet/lagamelle.webp",
-  "image-2": "img/img-projet/lagamelle.webp",
-  "image-3": "img/img-projet/lagamelle.webp",
+  "image-1": "./images/BrainWords/brainwords-home.png",
+  "image-2": "./images/BrainWords/brainwords-recette.png",
+  "image-3": "./images/BrainWords/brainwords-favoris.png",
 
   "url": "https://lagaamelle.fr/"
   },
@@ -64,11 +73,16 @@
   "word-3": "JavaScript",
   "word-4": "D3.js",
 
-  "image-1": "../images/dataKill-home.png",
-  "image-2": "img/img-projet/interview.webp",
-  "image-3": "img/img-projet/interview.webp",
+  "image-1": "./images/DataKill/datakill-home.png",
+  "image-2": "./images/DataKill/datakill-video.png",
+  "image-3": "./images/DataKill/datakill-map.png",
+  "image-4": "./images/DataKill/datakill-data2.png",
+  "image-5": "./images/DataKill/datakill-data1.png",
+  "image-6": "./images/DataKill/datakill-graph1.png",
+  "image-7": "./images/DataKill/datakill-graph2.png",
+  "image-8": "./images/DataKill/datakill-killer.png",
 
-  "url": "https://youtu.be/G11FQz8sYek"
+  "url": "https://razzway.github.io/datakill/"
     }
     
   ]
