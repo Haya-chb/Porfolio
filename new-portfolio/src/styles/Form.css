@@ -1,0 +1,17 @@
+.form__section{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+form{ 
+    background-color: var(--blue);
+    width: 89%;
+    height: 80%;
+}
+
+.button-blue{
+    background-color: var(--blue);
+}

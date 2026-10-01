@@ -1,0 +1,75 @@
+{
+  "projet": [
+    {
+  "id": 1,
+  "name": "LaGamelle",
+  "description": "On peut souvent entendre que le taux de criminalité augmente constamment. Mais qu’en sait-on vraiment ? Grâce à Datakill, il vous est possible de découvrir si le taux de meurtres augmente en France grâce à de nombreux graphiques et avec des données allant de 2016 jusqu’à Octobre 2025. Par la suite, on vous présente les plus grands tueurs français connus.",
+
+  "word-1": "HTML",
+  "word-2": "CSS",
+  "word-3": "JavaScript",
+  "word-4": "PHP",
+  "word-5": "GitHub",
+  "word-6": "MVC",
+
+  "image-1": "img/img-projet/datakill.webp",
+  "image-2": "img/img-projet/filmotheque.webp",
+  "image-3": "img/img-projet/lagamelle.webp",
+  "image-4": "img/img-projet/interview.webp",
+
+  "url": "https://razzway.github.io/datakill/"
+},
+
+    {
+  "id": 2,
+  "nom": "Yonsekai",
+  "description": "Dans une société où vos avis cinématographiques vous mettent dans des cases et où, si vous n’aimez pas tel film, c’est seulement parce que vous « n’y connaissez rien ». \n\nÀ l’ère où tout le monde écoute les avis de ceux qui se disent cinéphiles, tels que Regelegorilla, et où tout le monde possède une appli pour noter les films qu’il a vus, telle que Letterboxd, Filmothèque vous propose une alternative : un site où vous seuls pouvez voir vos avis et où vous pouvez vous livrer et mettre 5 étoiles à ce film que tout le monde a jugé horrible alors qu’il vous a chamboulé.",
+
+  "word-1": "HTML",
+  "word-2": "CSS",
+  "word-3": "Three.js",
+  "word-4": "PHP",
+  "word-5": "GitHub",
+  "word-6": "MVC",
+  "word-7": "React",
+
+  "image-1": "img/img-projet/filmotheque.webp",
+  "image-2": "img/img-projet/lagamelle.webp",
+  "image-3": "img/img-projet/interview.webp",
+
+  "url": "https://webinventory.chaibi.projetsmmichamps.fr/"
+},
+{
+  "id": 3,
+  "name": "BrainWords",
+  "description": "Diversifier les repas de ses animaux dans une société où il est normal qu’un  animal mange tous les jours la même chose, c’est compliqué. Alors La Gamelle est là pour vous permettre de le faire.\n\nEn vous inscrivant, vous pourrez bénéficier de recettes pensées pour l’espèce de votre animal. Vous pouvez aussi mettre en favoris les recettes qui vous ont plu pour les retrouver plus facilement, et il est même possible de laisser des commentaires pour faire des retours sur les recettes que vous avez testées.\n\n Parce que nous voulons que les utilisateurs de La Gamelle puissent développer un vrai esprit de communauté, il est possible pour les utilisateurs de proposer une recette qui sera par la suite vérifiée par nos soins avant d’être publiée.",
+
+  "word-1": "HTML",
+  "word-2": "CSS",
+  "word-7": "React",
+
+  "image-1": "img/img-projet/lagamelle.webp",
+  "image-2": "img/img-projet/lagamelle.webp",
+  "image-3": "img/img-projet/lagamelle.webp",
+
+  "url": "https://lagaamelle.fr/"
+  },
+  {
+  "id": 4,
+  "name": "DataKill",
+  "description": "Est-ce que vous pensez tout savoir sur le métier de journaliste ? Grâce à cette interview d’Emma Flacard, journaliste au 1 Hebdo, apprenez-en plus sur ce métier qui nous est peu connu.",
+
+  "word-1": "HTML",
+  "word-2": "CSS",
+  "word-3": "JavaScript",
+  "word-4": "D3.js",
+
+  "image-1": "../images/dataKill-home.png",
+  "image-2": "img/img-projet/interview.webp",
+  "image-3": "img/img-projet/interview.webp",
+
+  "url": "https://youtu.be/G11FQz8sYek"
+    }
+    
+  ]
+}
