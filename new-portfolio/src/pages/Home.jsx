@@ -23,7 +23,7 @@ export const Home = () =>{
 
     
 
-      <section className="projects__section">
+      <section className="projects__section" id ="projects">
 
       <h2 className="h2-pink">Mes projets</h2>
 

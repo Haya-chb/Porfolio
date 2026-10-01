@@ -12,12 +12,35 @@
 
 }
 
+@font-face {
+  font-family: 'CabinetGrotesk-Medium';
+  src: url('./assets/fonts/CabinetGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kunatic";
+  src: url("./assets/fonts/KunaticDemo.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+
+
+
+
+
 body{background-color : var(--white);
      background-image: 
     linear-gradient(to right, rgba(220, 78, 117, 0.2) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(220, 78, 117, 0.2) 1px, transparent 1px);
     background-size: 60px 60px; 
-    margin: 8px 0
+    margin: 8px 0;
+    font-family: 'CabinetGrotesk-Medium', sans-serif;
 }
     
 header{
@@ -29,6 +52,8 @@ h1{
     color:var(--pink);
     margin: 0;
     text-align: center;
+    font-family: 'Kunatic', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -40,6 +65,8 @@ h1{
 
 h2{
     font-size : 4rem;
+    font-family: 'Kunatic', sans-serif;
+    font-weight: 400;
 }
 
 .h2-pink{

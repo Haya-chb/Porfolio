@@ -1,3 +1,4 @@
+
 import "../styles/Form.css"
 
 export const Form = () =>{
@@ -5,36 +6,36 @@ export const Form = () =>{
 return(
     <>
     
-<form action="Contact.jsx" method="post">
+<form action="contact.php" method="post">
 
-<div>
+<div className="form__field">
 <label htmlFor="nom">*Nom </label>
 <br />
-<input type="text" id="nom" name="nom" required />
+<input type="text" id="nom" name="nom" className="form__input" required />
 </div>
  
-<div>
- <label for="prenom">*Prénom </label>
+<div className="form__field">
+ <label htmlFor="prenom">*Prénom </label>
  <br />
- <input type="text" id="prenom" name="prenom" required />
+ <input type="text" id="prenom" name="prenom" className="form__input" required />
 </div>
 
-<div>
- <label for="mail">*Email</label>
+<div className="form__field">
+ <label htmlFor="mail">*Email</label>
  <br />
- <input type="email" id="mail" name="email" required /> 
+ <input type="email" id="mail" name="email" className="form__input" required /> 
 </div>
 
-<div>
- <label for="entreprise">Nom de l'entreprise</label>
+<div className="form__field">
+ <label htmlFor="entreprise">Nom de l'entreprise</label>
  <br />
- <input type="text" id="entreprise" name="entreprise" />
+ <input type="text" id="entreprise" name="entreprise" className="form__input" />
 </div>
 
-<div>
-<label for="message">Message</label>
-<br />
-<textarea name="message" id="message" rows="6" required></textarea>
+<div className="form__field">
+ <label htmlFor="message">Message</label>
+ <br />
+ <textarea name="message" id="message" rows="6" className="form__textarea" required></textarea>
 </div>
 
 <input className="button button-blue " type="submit" value="Envoyer ce mail" />
@@ -43,4 +44,7 @@ return(
     
     </>
 )
+
+
+
 }

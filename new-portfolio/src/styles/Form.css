@@ -10,8 +10,48 @@ form{
     background-color: var(--blue);
     width: 89%;
     height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-blue{
     background-color: var(--blue);
+}
+
+.form__field {
+    width: 80%;
+    max-width: 900px;
+    margin-top: 20px;
+    
+}
+
+label {
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+
+.form__input {
+    width:  100%;
+    font-size: 1.2rem;
+    background-color: var(--blue);
+    border: none;
+    border-bottom: var(--white) solid;
+    color: var(--second-color);
+
+   
+}
+
+.form__textarea {
+   
+    margin-top: 10px;
+    width: 100%;
+    background-color: var(--blue);
+    border: 3px solid var(--white);
+    resize: none;
+    overflow: scroll;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
