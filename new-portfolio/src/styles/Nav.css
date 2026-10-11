@@ -10,16 +10,34 @@ nav ul {
 }
 
 
+
 .nav__link {
     font-size: 1.1rem;
     padding: 10px 8px;
     text-decoration: none;
+  
+}
+
+.nav__link:hover {
+    transition: all ease-in-out 0.3s;  
+}
+
+.nav__link-pink {
     color: var(--pink);
     border : 3px solid var(--pink);
 }
 
-.nav__link:hover {
-    transition: all ease-in-out 0.3s;
+.nav__link-pink:hover{
     color: var(--white);
     background-color: var(--pink);
+}
+
+.nav__link-white{
+    color: var(--white);
+    border : 3px solid var(--white);
+}
+
+.nav__link-white:hover{
+    color: var(--pink);
+    background-color: var(--white);
 }

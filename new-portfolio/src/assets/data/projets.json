@@ -1,86 +1,304 @@
 {
   "projet": [
-    {
-  "id": 1,
-  "name": "LaGamelle",
-  "description": "On peut souvent entendre que le taux de criminalité augmente constamment. Mais qu’en sait-on vraiment ? Grâce à Datakill, il vous est possible de découvrir si le taux de meurtres augmente en France grâce à de nombreux graphiques et avec des données allant de 2016 jusqu’à Octobre 2025. Par la suite, on vous présente les plus grands tueurs français connus.",
+  {
+   "id": 1,
+   "name": "LaGamelle",
+    "description": "On peut souvent entendre que le taux de criminalité augmente constamment. Mais qu’en sait-on vraiment ? Grâce à Datakill, il vous est possible de découvrir si le taux de meurtres augmente en France grâce à de nombreux graphiques et avec des données allant de 2016 jusqu’à Octobre 2025. Par la suite, on vous présente les plus grands tueurs français connus.",
 
-  "word-1": "HTML",
-  "word-2": "CSS",
-  "word-3": "JavaScript",
-  "word-4": "PHP",
-  "word-5": "GitHub",
-  "word-6": "MVC",
-  "word-7": "Responsive",
+    "images" : [
 
-  "image-1": "./images/LaGamelle/lagmelle-home.png",
-  "image-2": "./images/LaGamelle/lagmelle-loading.png",
-  "image-3": "./images/LaGamelle/lagamelle-book.png",
-  "image-4": "./images/LaGamelle/lagamelle-recipe.png",
-  "image-5": "./images/LaGamelle/lagamelle-toxic.png",
-  "image-6": "./images/LaGamelle/lagamelle-map.png",
-  "image-7": "./images/LaGamelle/lagamelle-veto.png",
-
-  "url": "https://lagaamelle.fr/"
-},
-
-    {
-  "id": 2,
-  "nom": "Yonsekai",
-  "description": "Dans une société où vos avis cinématographiques vous mettent dans des cases et où, si vous n’aimez pas tel film, c’est seulement parce que vous « n’y connaissez rien ». \n\nÀ l’ère où tout le monde écoute les avis de ceux qui se disent cinéphiles, tels que Regelegorilla, et où tout le monde possède une appli pour noter les films qu’il a vus, telle que Letterboxd, Filmothèque vous propose une alternative : un site où vous seuls pouvez voir vos avis et où vous pouvez vous livrer et mettre 5 étoiles à ce film que tout le monde a jugé horrible alors qu’il vous a chamboulé.",
-
-  "word-1": "HTML",
-  "word-2": "CSS",
-  "word-3": "Three.js",
-  "word-4": "PHP",
-  "word-5": "GitHub",
-  "word-6": "MVC",
-  "word-7": "Responsive",
-
-  "image-1": "./images/Yonsekai/yonsekai-home.png",
-  "image-2": "./images/Yonsekai/yonsekai-animation.png",
-  "image-3": "./images/Yonsekai/yonsekai-wind.png",
-  "image-4": "./images/Yonsekai/yonsekai-earth.png",
-  "image-5": "./images/Yonsekai/yonsekai-water.png",
-  "image-6": "./images/Yonsekai/yonsekai-fire.png",
-  "image-7": "./images/Yonsekai/yonsekai-info.png",
-  "image-8": "./images/Yonsekai/yonsekai-sigin.png",
-
-  "url": "https://yonsekai.vilasse.projetsmmichamps.fr/"
-},
 {
+  "src" : "/LaGamelle/lagamelle-home.png",
+  "alt" : "Page d'accueil de LaGamelle"
+},
+
+
+{
+  "src" : "/LaGamelle/lagamelle-book.png",
+  "alt" : "Page de chargement de LaGamelle"
+},
+
+{
+  "src" : "/LaGamelle/lagamelle-recipe.png",
+  "alt" : "Page de chargement de LaGamelle"
+},
+
+{
+  "src" : "/LaGamelle/lagamelle-toxic.png",
+  "alt" : ""
+},
+
+{
+  "src" : "/LaGamelle/lagamelle-map.png",
+  "alt" : ""
+},
+
+{
+  "src" : "/LaGamelle/lagamelle-veto.png",
+  "alt" : ""
+    } 
+    ],
+
+
+    "words" : [
+
+  {
+    "text": "HTML",
+    "rotation" : 1  ,
+    "x" : 3 ,
+    "y" : 12
+  },
+
+   {
+    "text": "CSS",
+    "rotation" : 1  ,
+    "x" : 3 ,
+    "y" : 12
+  },
+
+   {
+    "text": "JavaScript",
+    "rotation" : 1  ,
+    "x" : 3 ,
+    "y" : 12
+  },
+
+
+  {
+    "text": "PHP",
+    "rotation" : 1  ,
+    "x" : 3 ,
+    "y" : 12
+  },
+
+  {
+    "text": "GitHub",
+    "rotation" : 1  ,
+    "x" : 3 ,
+    "y" : 12
+  },
+
+  {
+    "text": "MVC",
+    "rotation" : 1  ,
+    "x" : 3 ,
+    "y" : 12
+  },
+
+  {
+    "text": "Responsive",
+    "rotation" : 1  ,
+    "x" : 3 ,
+    "y" : 12
+  }
+  
+
+    ],
+
+   "url": "https://lagaamelle.fr/"
+  },
+
+  {
+    "id": 2,
+    "name": "Yonsekai",
+    "description": "Dans une société où vos avis cinématographiques vous mettent dans des cases et où, si vous n’aimez pas tel film, c’est seulement parce que vous « n’y connaissez rien ». \n\nÀ l’ère où tout le monde écoute les avis de ceux qui se disent cinéphiles, tels que Regelegorilla, et où tout le monde possède une appli pour noter les films qu’il a vus, telle que Letterboxd, Filmothèque vous propose une alternative : un site où vous seuls pouvez voir vos avis et où vous pouvez vous livrer et mettre 5 étoiles à ce film que tout le monde a jugé horrible alors qu’il vous a chamboulé.",
+
+    "images" : [
+
+
+
+      {
+       "src" : "/Yonsekai/yonsekai-animation.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/Yonsekai/yonsekai-wind.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/Yonsekai/yonsekai-earth.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" :"/Yonsekai/yonsekai-water.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/Yonsekai/yonsekai-fire.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/Yonsekai/yonsekai-info.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      }
+
+    ],
+
+    "words" : [
+
+      {
+        "text": "HTML",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+
+       {
+        "text": "CSS",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+
+       {
+        "text": "Three.js",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+    
+       {
+        "text": "PHP",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+
+       {
+        "text": "GitHub",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+    
+      {
+        "text": "MVC",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+
+      {
+        "text": "Responsive",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      }
+    
+    ],
+
+
+    "url": "https://yonsekai.vilasse.projetsmmichamps.fr/"
+  },
+
+  {
   "id": 3,
   "name": "BrainWords",
   "description": "Diversifier les repas de ses animaux dans une société où il est normal qu’un  animal mange tous les jours la même chose, c’est compliqué. Alors La Gamelle est là pour vous permettre de le faire.\n\nEn vous inscrivant, vous pourrez bénéficier de recettes pensées pour l’espèce de votre animal. Vous pouvez aussi mettre en favoris les recettes qui vous ont plu pour les retrouver plus facilement, et il est même possible de laisser des commentaires pour faire des retours sur les recettes que vous avez testées.\n\n Parce que nous voulons que les utilisateurs de La Gamelle puissent développer un vrai esprit de communauté, il est possible pour les utilisateurs de proposer une recette qui sera par la suite vérifiée par nos soins avant d’être publiée.",
 
-  "word-1": "HTML",
-  "word-2": "CSS",
-  "word-7": "React",
+  "images" : [
 
-  "image-1": "./images/BrainWords/brainwords-home.png",
-  "image-2": "./images/BrainWords/brainwords-recette.png",
-  "image-3": "./images/BrainWords/brainwords-favoris.png",
+      {
+       "src" : "/BrainWords/brainwords-home.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      }
+  ],
+
+  "words" : [
+
+      {
+        "text": "HTML",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+
+       {
+        "text": "CSS",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      },
+
+       {
+        "text": "React",
+        "rotation" : 1  ,
+        "x" : 3 ,
+        "y" : 12
+      }
+  ],
 
   "url": "https://lagaamelle.fr/"
   },
+
   {
   "id": 4,
   "name": "DataKill",
   "description": "Est-ce que vous pensez tout savoir sur le métier de journaliste ? Grâce à cette interview d’Emma Flacard, journaliste au 1 Hebdo, apprenez-en plus sur ce métier qui nous est peu connu.",
 
-  "word-1": "HTML",
-  "word-2": "CSS",
-  "word-3": "JavaScript",
-  "word-4": "D3.js",
+  "images" : [
 
-  "image-1": "./images/DataKill/datakill-home.png",
-  "image-2": "./images/DataKill/datakill-video.png",
-  "image-3": "./images/DataKill/datakill-map.png",
-  "image-4": "./images/DataKill/datakill-data2.png",
-  "image-5": "./images/DataKill/datakill-data1.png",
-  "image-6": "./images/DataKill/datakill-graph1.png",
-  "image-7": "./images/DataKill/datakill-graph2.png",
-  "image-8": "./images/DataKill/datakill-killer.png",
+      {
+       "src" : "/DataKill/datakill-home.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/DataKill/datakill-video.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/DataKill/datakill-data2.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/DataKill/datakill-graph1.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+      {
+       "src" : "/DataKill/datakill-graph2.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/DataKill/datakill-killer.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      }
+  ],
+
+  "words" : [
+    {
+      "text": "HTML",
+      "rotation" : 1  ,
+      "x" : 3 ,
+      "y" : 12
+    },
+    {
+      "text": "CSS",
+      "rotation" : 1  ,
+      "x" : 3 ,
+      "y" : 12
+    },
+    {
+      "text": "JavaScript",
+      "rotation" : 1  ,
+      "x" : 3 ,
+      "y" : 12
+    },
+    {
+      "text": "D3.js",
+      "rotation" : 1  ,
+      "x" : 3 ,
+      "y" : 12
+    }
+  ],
 
   "url": "https://razzway.github.io/datakill/"
     }

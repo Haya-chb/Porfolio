@@ -49,17 +49,31 @@ header{
 
 h1{
     font-size: 4.5rem;
-    color:var(--pink);
+    
     margin: 0;
     text-align: center;
     font-family: 'Kunatic', sans-serif;
     font-weight: 400;
 }
 
+.h1-pink{
+    color:var(--pink);
+}
+
+.h1-white{
+    color: var(--white);
+}
+
 
 .texte-black{
     color: var(--black);
     font-size: 1.45rem;
+    text-align: center;
+}
+
+.text-white{
+    color: var(--white);
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -85,6 +99,12 @@ color: var(--pink);
 .projects__section{
     height: 100vh;
 }
+
+
+
+
+
+
 
 .apprentiship__section{
     height: 100vh;

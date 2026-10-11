@@ -1,5 +1,7 @@
 import {Footer} from "../components/Footer";
 import {Nav} from "../components/Nav";
+import projets from "../assets/data/projets.json";
+import { Link, useLocation } from "react-router-dom";
 
 export const Home = () =>{
     return(
@@ -27,6 +29,19 @@ export const Home = () =>{
 
       <h2 className="h2-pink">Mes projets</h2>
 
+       {projets.projet.map((projet) => (
+
+         <article key={projet.id} className="project__card">
+
+        <Link to={`/projects/${projet.id}`}>
+
+        <img src={projet.images[0].src} alt={projet.images[0].alt} className='card__image'/>
+
+        </Link>
+
+         </article>
+       ))}
+      
 
       </section>
 
