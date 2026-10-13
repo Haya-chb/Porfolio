@@ -8,6 +8,26 @@ export const Footer = () =>{
         <h2 className="h2-pink">Travaillons ensemble</h2>
         <span>
         <section className="footer__section footer__section--left">
+            
+            <h3>Contact</h3>
+            <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/haya-chaibi/" className="footer__link">Linkedin</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/Haya-chb" className="footer__link">GitHub</a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:haya.chaibi@hotmail.com" className="footer__link">Mail</a>
+                    </li>
+
+            </ul>
+        </section>
+
+        <section className="footer__section footer__section--right">
+
             <h3>Navigation</h3>
             <ul>
                     <li>
@@ -26,24 +46,7 @@ export const Footer = () =>{
                         <Link to="/  "className="footer__link">Mentions légales</Link>
                     </li>
             </ul>
-        </section>
-
-        <section className="footer__section footer__section--right">
-            <h3>Contact</h3>
-            <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/haya-chaibi/" className="footer__link">Linkedin</a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/Haya-chb" className="footer__link">GitHub</a>
-                    </li>
-
-                    <li>
-                        <a href="mailto:haya.chaibi@hotmail.com" className="footer__link">Mail</a>
-                    </li>
-
-            </ul>
+            
         </section>
 </span>
 
