@@ -7,6 +7,40 @@ body{
 }
 
 
+.header__bloc {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.header__section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    gap : 50px
+    
+    
+}
+
+.button-position{
+    align-self: flex-end;
+}
+
+
+
+.project__word{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    height: 100%;
+}
 
 .other__section{
     height: 100vh;
@@ -21,19 +55,14 @@ body{
 }
 
 
-.word__span{
-    background-color: var(--white);
-    border-radius: 56px;
-    color: var(--pink);
-    padding: 15px 20px;
-    font-size: 1.4rem;
-    
-}
+
+
 
 .project__section{
     margin: 20px;
     display: flex;
     flex-direction: column;
+   
     
 }
 
@@ -44,6 +73,7 @@ body{
     gap: 30px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
    
    
 }

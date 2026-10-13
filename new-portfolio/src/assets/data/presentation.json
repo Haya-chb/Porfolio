@@ -1,0 +1,68 @@
+  {"words" : [
+
+  {
+    "text": "HTML",
+    "rotation" : 1  ,
+    "x" : 25 ,
+    "y" : 84,
+    "color" : "pink"
+  },
+
+  {
+    "text": "CSS",
+    "rotation" : 29  ,
+    "x" : 167 ,
+    "y" : 82,
+    "color":"pink"
+  },
+
+   {
+    "text": "Javascript",
+    "rotation" : -3  ,
+    "x" : 290 ,
+    "y" : 84,
+    "color":"blue"
+  },
+
+   {
+    "text": "PHP",
+    "rotation" : 1  ,
+    "x" : 487 ,
+    "y" : 84,
+    "color":"pink"
+  },
+
+   {
+    "text": "GitHub",
+    "rotation" : 344  ,
+    "x" : 59 ,
+    "y" : 69,
+    "color":"blue"
+  },
+
+   {
+    "text": "React",
+    "rotation" : 353  ,
+    "x" : 243 ,
+    "y" : 70,
+    "color":"pink"
+  },
+
+   {
+    "text": "Figma",
+    "rotation" : 1  ,
+    "x" : 392 ,
+    "y" : 69,
+    "color":"blue"
+  },
+
+   {
+    "text": "Accéssibilité",
+    "rotation" : 36  ,
+    "x" : 539 ,
+    "y" : 76,
+    "color":"blue"
+  }
+
+
+ ] } 

@@ -3,7 +3,7 @@
   {
    "id": 1,
    "name": "LaGamelle",
-    "description": "On peut souvent entendre que le taux de criminalité augmente constamment. Mais qu’en sait-on vraiment ? Grâce à Datakill, il vous est possible de découvrir si le taux de meurtres augmente en France grâce à de nombreux graphiques et avec des données allant de 2016 jusqu’à Octobre 2025. Par la suite, on vous présente les plus grands tueurs français connus.",
+    "description": "Nos animaux de compagnies méritent tous de manger de bons petits plats. Grâce à la Gamelle vous pourrez découvrir de nouvelles recettes et adapter chaque repas aux goûts de votre animal.",
 
     "images" : [
 
@@ -44,52 +44,52 @@
 
   {
     "text": "HTML",
-    "rotation" : 1  ,
-    "x" : 3 ,
-    "y" : 12
+    "rotation" : 19  ,
+    "x" : 25 ,
+    "y" : 84
   },
 
    {
     "text": "CSS",
-    "rotation" : 1  ,
-    "x" : 3 ,
-    "y" : 12
+    "rotation" : 345  ,
+    "x" : -122 ,
+    "y" : 84
   },
 
    {
     "text": "JavaScript",
     "rotation" : 1  ,
-    "x" : 3 ,
-    "y" : 12
+    "x" :50 ,
+    "y" : 98
   },
 
 
   {
     "text": "PHP",
-    "rotation" : 1  ,
-    "x" : 3 ,
-    "y" : 12
+    "rotation" : 4  ,
+    "x" : 126 ,
+    "y" : 60
   },
 
   {
     "text": "GitHub",
-    "rotation" : 1  ,
-    "x" : 3 ,
-    "y" : 12
+    "rotation" : 343  ,
+    "x" : -102 ,
+    "y" : 95
   },
 
   {
     "text": "MVC",
-    "rotation" : 1  ,
-    "x" : 3 ,
-    "y" : 12
+    "rotation" : 346  ,
+    "x" : -89 ,
+    "y" : 70
   },
 
   {
     "text": "Responsive",
-    "rotation" : 1  ,
-    "x" : 3 ,
-    "y" : 12
+    "rotation" : 15  ,
+    "x" : 50 ,
+    "y" : 72
   }
   
 
@@ -101,7 +101,7 @@
   {
     "id": 2,
     "name": "Yonsekai",
-    "description": "Dans une société où vos avis cinématographiques vous mettent dans des cases et où, si vous n’aimez pas tel film, c’est seulement parce que vous « n’y connaissez rien ». \n\nÀ l’ère où tout le monde écoute les avis de ceux qui se disent cinéphiles, tels que Regelegorilla, et où tout le monde possède une appli pour noter les films qu’il a vus, telle que Letterboxd, Filmothèque vous propose une alternative : un site où vous seuls pouvez voir vos avis et où vous pouvez vous livrer et mettre 5 étoiles à ce film que tout le monde a jugé horrible alors qu’il vous a chamboulé.",
+    "description": "Découvrez Yonsekai,un musée interactif sur la relation de la nature et de l’homme à travers une sélection de mangas. Pensez à prendre vos places.",
 
     "images" : [
 
@@ -143,51 +143,51 @@
 
       {
         "text": "HTML",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : -12 ,
+        "x" : -147 ,
+        "y" : 64
       },
 
        {
         "text": "CSS",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : 342  ,
+        "x" : 43 ,
+        "y" : 70
       },
 
        {
         "text": "Three.js",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : 35  ,
+        "x" : 127,
+        "y" : 85
       },
     
        {
         "text": "PHP",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : 5  ,
+        "x" : 6 ,
+        "y" : 85
       },
 
        {
         "text": "GitHub",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : 334  ,
+        "x" : -160 ,
+        "y" : 93
       },
     
       {
         "text": "MVC",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : 338 ,
+        "x" : -95 ,
+        "y" : 76
       },
 
       {
         "text": "Responsive",
         "rotation" : 1  ,
         "x" : 3 ,
-        "y" : 12
+        "y" : 98
       }
     
     ],
@@ -199,7 +199,7 @@
   {
   "id": 3,
   "name": "BrainWords",
-  "description": "Diversifier les repas de ses animaux dans une société où il est normal qu’un  animal mange tous les jours la même chose, c’est compliqué. Alors La Gamelle est là pour vous permettre de le faire.\n\nEn vous inscrivant, vous pourrez bénéficier de recettes pensées pour l’espèce de votre animal. Vous pouvez aussi mettre en favoris les recettes qui vous ont plu pour les retrouver plus facilement, et il est même possible de laisser des commentaires pour faire des retours sur les recettes que vous avez testées.\n\n Parce que nous voulons que les utilisateurs de La Gamelle puissent développer un vrai esprit de communauté, il est possible pour les utilisateurs de proposer une recette qui sera par la suite vérifiée par nos soins avant d’être publiée.",
+  "description": "Un jeu de notre enfance mais comme vous ne l’avez jamais vu. Une adaptation du pendu avec des zombies. Ne les laissez pas manger vos cerveaux.",
 
   "images" : [
 
@@ -213,23 +213,23 @@
 
       {
         "text": "HTML",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : 20  ,
+        "x" : 17 ,
+        "y" : 84
       },
 
        {
         "text": "CSS",
-        "rotation" : 1  ,
-        "x" : 3 ,
-        "y" : 12
+        "rotation" : 348 ,
+        "x" : -96 ,
+        "y" : 89
       },
 
        {
         "text": "React",
         "rotation" : 1  ,
         "x" : 3 ,
-        "y" : 12
+        "y" : 98
       }
   ],
 
@@ -239,7 +239,7 @@
   {
   "id": 4,
   "name": "DataKill",
-  "description": "Est-ce que vous pensez tout savoir sur le métier de journaliste ? Grâce à cette interview d’Emma Flacard, journaliste au 1 Hebdo, apprenez-en plus sur ce métier qui nous est peu connu.",
+  "description": "On peut souvent entendre que le taux de criminalité augmente. Mais qu’en est-il vraiment ? Partez à la découverte des données sur la criminalités en France ",
 
   "images" : [
 
@@ -276,27 +276,27 @@
   "words" : [
     {
       "text": "HTML",
-      "rotation" : 1  ,
-      "x" : 3 ,
-      "y" : 12
+      "rotation" : 3  ,
+      "x" : 0 ,
+      "y" : 86
     },
     {
       "text": "CSS",
-      "rotation" : 1  ,
-      "x" : 3 ,
-      "y" : 12
+      "rotation" : 339  ,
+      "x" : -119 ,
+      "y" : 81
     },
     {
       "text": "JavaScript",
       "rotation" : 1  ,
       "x" : 3 ,
-      "y" : 12
+      "y" : 98
     },
     {
       "text": "D3.js",
-      "rotation" : 1  ,
-      "x" : 3 ,
-      "y" : 12
+      "rotation" : 328  ,
+      "x" : -119 ,
+      "y" : 95
     }
   ],
 

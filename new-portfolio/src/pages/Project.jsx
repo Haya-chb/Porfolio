@@ -17,30 +17,41 @@ export const Project = () =>{
         <>
       <header className ="header-pink">
         <Nav theme="white"/>
-      <section>
-        
-        <h1 className="h1-white">{projet.name}</h1>
-        <p className="text-white">{projet.description}</p>
-        
-      </section>
 
-  <aside>
+ 
+
+
+  <div className = "header__bloc">
+
+  <aside className="project__word">
 
     {projet.words.map((word) => (    
       <span 
-          className ="word__span"
+          className ="word word--pink"
           key={word.text}
           style={{
             transform: `rotate(${word.rotation}deg)`,
             left: `${word.x}px`,
-            top: `${word.y}px`
+            top: `${word.y}%`
           }}
       >
         {word.text}
       </span>
-    ))}    
+    ))}   
+
   </aside>
 
+      <section className="header__section">
+        
+        
+        <h1 className="h1-white">{projet.name}</h1>
+        <p className="text-white text-small">{projet.description}</p>
+        <a href={projet.url} className="button button-white button-position">Découvrir le projet</a>
+        
+      </section>
+
+
+</div>
 
   </header>
         
