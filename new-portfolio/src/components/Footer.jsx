@@ -5,7 +5,7 @@ export const Footer = () =>{
     return(
         <>
         <footer>
-        <h2 className="h2-pink">Travaillons ensemble</h2>
+        <h2 className="h2-pink footer__title">Travaillons ensemble</h2>
         <span>
         <section className="footer__section footer__section--left">
             

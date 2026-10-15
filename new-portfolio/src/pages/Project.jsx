@@ -23,6 +23,8 @@ export const Project = () =>{
 
   <div className = "header__bloc">
 
+      
+
   <aside className="project__word">
 
     {projet.words.map((word) => (    
@@ -41,7 +43,7 @@ export const Project = () =>{
 
   </aside>
 
-      <section className="header__section">
+    <section className="header__section">
         
         
         <h1 className="h1-white">{projet.name}</h1>

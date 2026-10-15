@@ -45,21 +45,21 @@
   {
     "text": "HTML",
     "rotation" : 19  ,
-    "x" : 25 ,
-    "y" : 84
+    "x" : 107 ,
+    "y" : 35
   },
 
    {
     "text": "CSS",
-    "rotation" : 345  ,
-    "x" : -122 ,
-    "y" : 84
+    "rotation" : 327  ,
+    "x" : -11 ,
+    "y" : 40
   },
 
    {
     "text": "JavaScript",
     "rotation" : 1  ,
-    "x" :50 ,
+    "x" :-109 ,
     "y" : 98
   },
 
@@ -67,29 +67,29 @@
   {
     "text": "PHP",
     "rotation" : 4  ,
-    "x" : 126 ,
-    "y" : 60
+    "x" : -128 ,
+    "y" : 52
   },
 
   {
     "text": "GitHub",
     "rotation" : 343  ,
-    "x" : -102 ,
+    "x" : -262 ,
     "y" : 95
   },
 
   {
     "text": "MVC",
     "rotation" : 346  ,
-    "x" : -89 ,
-    "y" : 70
+    "x" : -260 ,
+    "y" : 52
   },
 
   {
     "text": "Responsive",
-    "rotation" : 15  ,
-    "x" : 50 ,
-    "y" : 72
+    "rotation" : 19  ,
+    "x" : 67 ,
+    "y" : 80
   }
   
 
@@ -143,50 +143,50 @@
 
       {
         "text": "HTML",
-        "rotation" : -12 ,
-        "x" : -147 ,
-        "y" : 64
+        "rotation" : 15 ,
+        "x" : 138 ,
+        "y" : 48
       },
 
        {
         "text": "CSS",
         "rotation" : 342  ,
-        "x" : 43 ,
-        "y" : 70
+        "x" : -262 ,
+        "y" : 50
       },
 
        {
         "text": "Three.js",
         "rotation" : 35  ,
-        "x" : 127,
+        "x" : 75,
         "y" : 85
       },
     
        {
         "text": "PHP",
-        "rotation" : 5  ,
-        "x" : 6 ,
-        "y" : 85
+        "rotation" : 32  ,
+        "x" : -141 ,
+        "y" : 48
       },
 
        {
         "text": "GitHub",
         "rotation" : 334  ,
-        "x" : -160 ,
+        "x" : -251 ,
         "y" : 93
       },
     
       {
         "text": "MVC",
-        "rotation" : 338 ,
-        "x" : -95 ,
-        "y" : 76
+        "rotation" : 342 ,
+        "x" : -24 ,
+        "y" : 50
       },
 
       {
         "text": "Responsive",
         "rotation" : 1  ,
-        "x" : 3 ,
+        "x" : -104 ,
         "y" : 98
       }
     
@@ -214,21 +214,21 @@
       {
         "text": "HTML",
         "rotation" : 20  ,
-        "x" : 17 ,
+        "x" : 51 ,
         "y" : 84
       },
 
        {
         "text": "CSS",
         "rotation" : 348 ,
-        "x" : -96 ,
+        "x" : -195 ,
         "y" : 89
       },
 
        {
         "text": "React",
         "rotation" : 1  ,
-        "x" : 3 ,
+        "x" : -77 ,
         "y" : 98
       }
   ],
@@ -276,26 +276,26 @@
   "words" : [
     {
       "text": "HTML",
-      "rotation" : 3  ,
-      "x" : 0 ,
-      "y" : 86
+      "rotation" : 8  ,
+      "x" : -136 ,
+      "y" : 54
     },
     {
       "text": "CSS",
-      "rotation" : 339  ,
-      "x" : -119 ,
-      "y" : 81
+      "rotation" : 27  ,
+      "x" : 85 ,
+      "y" : 80
     },
     {
       "text": "JavaScript",
       "rotation" : 1  ,
-      "x" : 3 ,
+      "x" : -100,
       "y" : 98
     },
     {
       "text": "D3.js",
-      "rotation" : 328  ,
-      "x" : -119 ,
+      "rotation" : 343  ,
+      "x" : -235 ,
       "y" : 95
     }
   ],

@@ -14,9 +14,9 @@ export const Home = () =>{
  
       <Nav />
 
-<section className = "header__section">
+<section className = "header__section header-space">
 
-  <div>
+  <div className="header__text">
       <h1 className="h1-pink">Haya Chaibi</h1>
       <p className="texte-black">Développeuse full stack et UX/UI Designer</p>
   </div>

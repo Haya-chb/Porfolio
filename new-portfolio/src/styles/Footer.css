@@ -1,5 +1,7 @@
 
-footer{position:relative;}
+footer{position:relative;
+    padding-bottom: 100px;
+}
 
 .footer__section {
     background-color: var(--blue);
@@ -7,14 +9,27 @@ footer{position:relative;}
     height: 400px;
     max-width: 450px;
     box-shadow: 7px 9px rgb(0 0 0 / 0.15);
+    border: 1px var(--white) solid;
     position:absolute;
     padding: 20px;
+    
 }
+
+.footer__title{
+ position: absolute;
+  bottom: -441px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  z-index: 99;
+  -webkit-text-stroke: 1px var(--white)
+
+}
+
 
 .footer__section--left{
     rotate: 6.46deg;
-    top:206%;
-    left:65%;
+    left:20%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -25,9 +40,8 @@ footer{position:relative;}
 
 .footer__section--right{
     rotate:-18.49deg;
-    top:-65%;
     left:53%;
-    z-index: 99;
+    z-index: 50;
     
 }
 
