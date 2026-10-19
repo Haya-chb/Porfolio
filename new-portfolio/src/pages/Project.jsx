@@ -15,7 +15,7 @@ export const Project = () =>{
 
     return(
         <>
-      <header className ="header-pink">
+      <header className ="header-pink header-heigth">
         <Nav theme="white"/>
 
  

@@ -10,7 +10,7 @@ export const Home = () =>{
 
     return(
         <>
-        <header>
+        <header className="header-heigth">
       
  
       <Nav />
