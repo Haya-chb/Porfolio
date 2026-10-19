@@ -206,7 +206,23 @@
       {
        "src" : "/BrainWords/brainwords-home.png",
        "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/BrainWords/brainwords-wrong.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/BrainWords/brainwords-play.png",
+       "alt" : "Page d'accueil de LaGamelle"
+      },
+
+      {
+       "src" : "/BrainWords/brainwords-gameover.png",
+       "alt" : "Page d'accueil de LaGamelle"
       }
+
   ],
 
   "words" : [
@@ -233,7 +249,7 @@
       }
   ],
 
-  "url": "https://lagaamelle.fr/"
+  "url": "https://github.com/Haya-chb/BrainWords"
   },
 
   {
