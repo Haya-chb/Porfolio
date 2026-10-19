@@ -49,7 +49,7 @@ header{
 
 
 h1{
-    font-size: 4.5rem;
+    font-size: 6rem;
     
     margin: 0;
     text-align: center;
@@ -96,6 +96,21 @@ br{
 }
 
 
+
+.radius-small{
+
+border-radius : 10px
+
+}
+
+.radius-medium{
+
+border-radius: 56px;
+
+}
+
+
+
 .cv__section{
     display: flex;
     flex-direction: column;
@@ -130,16 +145,26 @@ br{
     height: 60%;
     width: 800px;
     
+    
 }
 
 
 .word{
     background-color: var(--white);
-    border-radius: 56px;
     padding: 15px 30px;
-    font-size: 1.8rem;
     position : absolute; 
+    border: 1px solid var(--white)
 }
+
+.word-big{
+font-size: 2.9rem;
+}
+
+.word-medium{
+
+    font-size: 2rem;
+}
+
 
 .word--pink{
     color: var(--pink);
@@ -149,6 +174,25 @@ br{
 .word--white{
     color: var(--white);
 }
+
+
+.word__span {
+  animation: slide-in 0.5s ease-out both;
+  animation-delay: var(--delay);
+}
+
+@keyframes slide-in {
+  from {
+    top: -1000px;
+  }
+
+  to {
+    top: var(--final-top);
+  }
+}
+
+
+
 
 
 h2{
@@ -182,7 +226,7 @@ color: var(--pink);
 
 .card__link{
     border: 10px solid var(--white);
-    width : 80%;
+    width :100%;
     aspect-ratio: 1/0.6;}
 
 
@@ -201,7 +245,7 @@ color: var(--pink);
 
 .project__div article:nth-of-type(1) {
   transform: rotate(17deg);
-  margin-left: 60px;
+  margin-left: 15px;
   Z-index: 5;
 }
 
@@ -212,19 +256,6 @@ color: var(--pink);
 .project__div article:nth-of-type(3) {
   transform: rotate(345deg);
 }
-
-
-
-.apprentiship__section{
-    height: 100vh;
-    background-color: var(--pink);
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-     
-}
-
 
 
 .button {
@@ -269,3 +300,5 @@ div{
         margin-left: 60px;
     }
 }
+
+

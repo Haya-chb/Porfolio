@@ -71,7 +71,9 @@ body{
 
 @media (width <= 600px) {
 
-    
+    .other__section{
+        height: fit-content;
+    }
     
     .other__div{
         flex-direction: column;
@@ -101,13 +103,8 @@ body{
     
 }
 
-.card__link{
-    border: 10px solid var(--white);
-    width : 80%;
-    aspect-ratio: 1/0.6;
+
     
-    
-}
 
 .other__div article{
      margin-left: -120px;

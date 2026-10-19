@@ -3,15 +3,15 @@
   {
     "text": "HTML",
     "rotation" : 1  ,
-    "x" : 25 ,
+    "x" : -16 ,
     "y" : 84,
-    "color" : "pink"
+    "color" : "blue"
   },
 
   {
-    "text": "CSS",
+    "text": "Figma",
     "rotation" : 29  ,
-    "x" : 167 ,
+    "x" : 160 ,
     "y" : 82,
     "color":"pink"
   },
@@ -19,50 +19,81 @@
    {
     "text": "Javascript",
     "rotation" : -3  ,
-    "x" : 290 ,
+    "x" : 343 ,
     "y" : 84,
     "color":"blue"
   },
 
    {
     "text": "PHP",
-    "rotation" : 1  ,
-    "x" : 487 ,
-    "y" : 84,
-    "color":"pink"
+    "rotation" : 11  ,
+    "x" : 643 ,
+    "y" : 53,
+    "color":"blue"
   },
 
    {
     "text": "GitHub",
     "rotation" : 344  ,
     "x" : 59 ,
-    "y" : 69,
+    "y" : 63,
     "color":"blue"
   },
 
    {
-    "text": "React",
+    "text": "Persona",
     "rotation" : 353  ,
     "x" : 243 ,
-    "y" : 70,
+    "y" : 65,
     "color":"pink"
   },
 
    {
-    "text": "Figma",
-    "rotation" : 1  ,
-    "x" : 392 ,
-    "y" : 69,
+    "text": "CSS",
+    "rotation" : 25  ,
+    "x" : 291 ,
+    "y" : 45,
     "color":"blue"
   },
 
    {
-    "text": "Accéssibilité",
-    "rotation" : 36  ,
-    "x" : 539 ,
+    "text": "Wireframe",
+    "rotation" : 38  ,
+    "x" : 559 ,
     "y" : 76,
+    "color":"pink"
+  },
+
+   {
+    "text": "UX",
+    "rotation" : 36  ,
+    "x" : 546 ,
+    "y" : 37,
+    "color":"pink"
+  },
+
+   {
+    "text": "UI",
+    "rotation" : 311  ,
+    "x" : 438 ,
+    "y" : 40,
+    "color":"pink"
+  },
+
+   {
+    "text": "Accéssibilité",
+    "rotation" : 353  ,
+    "x" : -17 ,
+    "y" : 45,
+    "color":"pink"
+  },
+
+  {
+    "text": "React",
+    "rotation" : 297  ,
+    "x" : 446 ,
+    "y" : 60,
     "color":"blue"
   }
-
 
  ] } 

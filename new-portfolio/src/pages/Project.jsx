@@ -25,11 +25,11 @@ export const Project = () =>{
 
       
 
-  <aside className="project__word">
+  <aside className="project__word ">
 
     {projet.words.map((word) => (    
       <span 
-          className ="word word--pink"
+          className ="word word--pink radius-medium word-medium"
           key={word.text}
           style={{
             transform: `rotate(${word.rotation}deg)`,
@@ -48,7 +48,7 @@ export const Project = () =>{
         
         <h1 className="h1-white">{projet.name}</h1>
         <p className="text-white text-small">{projet.description}</p>
-        <a href={projet.url} className="button button-white button-position">Découvrir le projet</a>
+        <a href={projet.url} className="button button-white button-position radius-small">Découvrir le projet</a>
         
       </section>
 

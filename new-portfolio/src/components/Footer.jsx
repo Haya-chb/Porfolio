@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import '../styles/Footer.css' 
+import '../styles/Footer.css' ;
 
 export const Footer = () =>{
     return(
@@ -7,7 +7,7 @@ export const Footer = () =>{
         <footer>
         <h2 className="h2-pink footer__title">Travaillons ensemble</h2>
         <span>
-        <section className="footer__section footer__section--left">
+        <section className="footer__section footer__section--left radius-small">
             
             <h3>Contact</h3>
             <ul>
@@ -26,12 +26,12 @@ export const Footer = () =>{
             </ul>
         </section>
 
-        <section className="footer__section footer__section--right">
+        <section className="footer__section footer__section--right radius-small">
 
             <h3>Navigation</h3>
             <ul>
                     <li>
-                        <Link to="/projects" className="footer__link">Mes projets</Link>
+                        <Link to="/#projects" className="footer__link">Mes projets</Link>
                     </li>
 
                     <li>
@@ -39,12 +39,9 @@ export const Footer = () =>{
                     </li>
 
                     <li>
-                        <Link to="/ " className="footer__link">Plan du site</Link>
+                        <Link to="/sitemap " className="footer__link">Plan du site</Link>
                     </li>
 
-                    <li>
-                        <Link to="/  "className="footer__link">Mentions légales</Link>
-                    </li>
             </ul>
             
         </section>

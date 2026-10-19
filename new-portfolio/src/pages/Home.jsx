@@ -3,6 +3,7 @@ import {Nav} from "../components/Nav";
 import projets from "../assets/data/projets.json";
 import presentation from "../assets/data/presentation.json";
 import { Link, useLocation } from "react-router-dom";
+import Alternance from "../components/Alternance";
 
 export const Home = () =>{
 
@@ -22,15 +23,17 @@ export const Home = () =>{
   </div>
   
 <aside className="presentation__words">
-  {presentation.words.map((word) => (
+  {presentation.words.map((word, index) => (
     <span
-      className="word word--white" 
+      className="word word--white word__span radius-medium word-big " 
       key={word.text}
       style={{
         transform: `rotate(${word.rotation}deg)`,
         left: `${word.x}px`,
         top: `${word.y}%`,
+        "--final-top": `${word.y}%`,
         backgroundColor: `var(--${word.color})`,
+        animationDelay: `${index * 100}ms`,
       }}
     >
       {word.text}
@@ -54,7 +57,7 @@ Mais cette expérience ne doit jamais se faire au détriment de l’accessibilit
 
 J’ai encore beaucoup à apprendre pour me rapprocher de cette vision. C’est pourquoi je suis à la recherche d’une alternance ou d’un stage de six mois, afin de continuer à progresser, d’expérimenter et de contribuer à la création d’expériences web singulières. </p>
 
-      <a href="" className="button button-blue" >Découvrir mon CV</a>
+      <a href="" className="button button-blue radius-small" >Découvrir mon CV</a>
 
       </section>
 
@@ -68,11 +71,11 @@ J’ai encore beaucoup à apprendre pour me rapprocher de cette vision. C’est 
 
        {projets.projet.map((projet) => (
 
-         <article key={projet.id} className="project__card">
+         <article key={projet.id} className="project__card ">
 
         <Link to={`/projects/${projet.id}`}>
 
-        <img src={projet.images[0].src} alt={projet.images[0].alt} className='card__link'/>
+        <img src={projet.images[0].src} alt={projet.images[0].alt} className='card__link radius-small'/>
 
         </Link>
 
@@ -83,18 +86,7 @@ J’ai encore beaucoup à apprendre pour me rapprocher de cette vision. C’est 
 
       </section>
 
-
-      <section className="apprentiship__section">
-
-      <h2 className="h2-white">Alternance</h2>
-    
-      <p>Souhaitez-vous me prendre en alternance ?</p>
-
-      <div>
-      <a href="/contact" className="button button-pink">Oui</a>
-      <a href="" className="button button-pink">Non</a>
-      </div>
-  </section>
+       <Alternance />
 
         <Footer />
 

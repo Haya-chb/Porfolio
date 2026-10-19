@@ -6,7 +6,7 @@ export const Form = () =>{
 return(
     <>
     
-<form action="contact.php" method="post">
+<form action="contact.php" method="post" className="radius-small">
 
 <div className="form__field">
 <label htmlFor="nom">*Nom </label>
@@ -35,10 +35,10 @@ return(
 <div className="form__field">
  <label htmlFor="message">Message</label>
  <br />
- <textarea name="message" id="message" rows="6" className="form__textarea" required></textarea>
+ <textarea name="message" id="message" rows="6" className="form__textarea radius-small" required></textarea>
 </div>
 
-<input className="button button-blue " type="submit" value="Envoyer ce mail" />
+<input className="button button-blue radius-small " type="submit" value="Envoyer ce mail" />
 
 </form>
     

@@ -23,8 +23,9 @@ export const Nav = ({theme = "pink"}) => {
 
 <nav>
     <ul>
-        <li><Link to="/#projects" className={`nav__link nav__link-${theme}`}>Mes projets</Link></li>
-        <li><Link to="/contact" className={`nav__link nav__link-${theme}`}>Me contacter</Link></li>
+        <li><Link to="/" className={`nav__link nav__link-${theme} radius-small`}>Accueil</Link></li>
+        <li><Link to="/#projects" className={`nav__link nav__link-${theme} radius-small`}>Mes projets</Link></li>
+        <li><Link to="/contact" className={`nav__link nav__link-${theme} radius-small`}>Me contacter</Link></li>
     </ul>
 </nav>
     
