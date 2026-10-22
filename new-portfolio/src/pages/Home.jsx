@@ -29,8 +29,8 @@ export const Home = () =>{
       key={word.text}
       style={{
         transform: `rotate(${word.rotation}deg)`,
-        left: `${word.x}px`,
-        top: `${word.y}%`,
+         "--x": `${word.x}px`,
+    "--y": `${word.y}%`,
         "--final-top": `${word.y}%`,
         backgroundColor: `var(--${word.color})`,
         animationDelay: `${index * 100}ms`,
@@ -49,7 +49,7 @@ export const Home = () =>{
 
       <section className="cv__section">
 
-      <p className = "text-white text-medium">Depuis la création du Web, et à travers de nombreuses autres innovations, l’idée a toujours été de créer des espaces ouverts à tous, où chacun peut explorer, s’amuser et laisser libre cours à son imagination. <br />
+  <p className = "text-white text-medium text-long">Depuis la création du Web, et à travers de nombreuses autres innovations, l’idée a toujours été de créer des espaces ouverts à tous, où chacun peut explorer, s’amuser et laisser libre cours à son imagination. <br />
 
 Aujourd’hui, j’ai parfois l’impression que cette vision se perd au profit de sites de plus en plus uniformisés. Pour moi, un site web doit être une expérience à part entière. À travers les interactions, les animations et une direction artistique cohérente avec le projet, j’aime imaginer des expériences qui donnent envie d’être explorées, qui surprennent, intriguent et plongent l’utilisateur dans un univers. <br />
 
@@ -57,17 +57,23 @@ Mais cette expérience ne doit jamais se faire au détriment de l’accessibilit
 
 J’ai encore beaucoup à apprendre pour me rapprocher de cette vision. C’est pourquoi je suis à la recherche d’une alternance ou d’un stage de six mois, afin de continuer à progresser, d’expérimenter et de contribuer à la création d’expériences web singulières. </p>
 
-      <a href="" className="button button-blue radius-small" >Découvrir mon CV</a>
+<p className = "text-white text-medium text-short">Depuis la création du Web, et à travers de nombreuses autres innovations, l’idée a toujours été de créer des espaces ouverts à tous, où chacun peut explorer, s’amuser et laisser libre cours à son imagination. <br />
+
+J’ai encore beaucoup à apprendre pour me rapprocher de cette vision. C’est pourquoi je suis à la recherche d’une alternance ou d’un stage de six mois, afin de continuer à progresser, d’expérimenter et de contribuer à la création d’expériences web singulières. </p>
+
+
+
+      <a href="https://cvdesignr.com/p/m9GbD1kp8Xdqop4?hl=en_GB" className="button button-blue radius-small" >Découvrir mon CV</a>
 
       </section>
 
     
 
-      <section className="projects__section" id ="projects">
+      <section className="projects__section " id ="projects">
 
       <h2 className="h2-pink">Mes projets</h2>
 
-      <div className ="project__div">
+      <div className ="project__div padding-medium">
 
        {projets.projet.map((projet) => (
 

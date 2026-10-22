@@ -27,14 +27,16 @@ export const Project = () =>{
 
   <aside className="project__word ">
 
-    {projet.words.map((word) => (    
+    {projet.words.map((word, index) => (    
       <span 
-          className ="word word--pink radius-medium word-medium"
+          className ="word word--pink radius-medium word-medium word__span"
           key={word.text}
           style={{
             transform: `rotate(${word.rotation}deg)`,
             left: `${word.x}px`,
-            top: `${word.y}%`
+            top: `${word.y}%`,
+            "--final-top": `${word.y}%`,
+            animationDelay: `${index * 100}ms`
           }}
       >
         {word.text}
@@ -48,7 +50,7 @@ export const Project = () =>{
         
         <h1 className="h1-white">{projet.name}</h1>
         <p className="text-white text-small">{projet.description}</p>
-        <a href={projet.url} className="button button-white button-position radius-small">Découvrir le projet</a>
+        <a href={projet.url} className="button button-white radius-small">Découvrir le projet</a>
         
       </section>
 
@@ -75,11 +77,11 @@ export const Project = () =>{
 
   </section>
 
-  <section className ="other__section">
+  <section className ="other__section ">
 
     <h2 className = "h2-white"> Mes autres projets</h2>
     
-    <div className="other__div"> 
+    <div className="other__div padding-medium"> 
      {projets.projet
       .filter((projet) => projet.id !== Number(id))
       .map((projet) => (

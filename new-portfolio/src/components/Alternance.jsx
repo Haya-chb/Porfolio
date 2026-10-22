@@ -119,7 +119,7 @@ function Alternance() {
       </div>
 
       <div className="alternance__button">
-        <a href="/contact" className="button button-white button-big">
+        <a href="../contact" className="button button-white button-big">
           Oui
         </a>
 

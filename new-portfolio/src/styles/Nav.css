@@ -41,3 +41,10 @@ nav ul {
     color: var(--pink);
     background-color: var(--white);
 }
+
+@media (width <= 500px) {
+
+nav ul {
+     gap: 5px;
+}
+}
